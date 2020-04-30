@@ -1,0 +1,1551 @@
+7154 [2020-04-30 02:16:07.094] [main] [info] Identity created at 1580037932 - using ID Schema 1
+7154 [2020-04-30 02:16:07.097] [main] [info] ------------- Starting Sync (gmtstephane@gmail.com) ---------------
+7154 [2020-04-30 02:16:08.848] [metadata] [info] Metadata delta stream starting...
+7154 [2020-04-30 02:16:11.102] [background] [info] Fetching XOAuth2 access token from Gmail for b3476e84
+7154 [2020-04-30 02:16:11.631] [background] [info] Marking all folders as `busy`
+7154 [2020-04-30 02:16:11.631] [background] [info] Syncing folder list...
+7154 [2020-04-30 02:16:12.489] [background] [info] Syncing folder list...
+7154 [2020-04-30 02:16:12.613] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 15423 - 16173, Heavy: true
+7154 [2020-04-30 02:16:13.337] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+7154 [2020-04-30 02:16:14.394] [background] [info] - remote=383, local=0
+7154 [2020-04-30 02:16:16.313] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 15423 - 16173, Heavy: false
+7154 [2020-04-30 02:16:16.471] [background] [info] - remote=383, local=383
+7154 [2020-04-30 02:16:20.518] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 8824, Heavy: true
+7154 [2020-04-30 02:16:20.776] [background] [info] - remote=49, local=0
+7154 [2020-04-30 02:16:20.975] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 8824, Heavy: false
+7154 [2020-04-30 02:16:21.058] [background] [info] - remote=49, local=49
+7154 [2020-04-30 02:16:21.058] [background] [info] Cleaning local cache and updating stats
+7154 [2020-04-30 02:16:21.059] [background] [info] -- 0 message bodies deleted from local cache.
+7154 [2020-04-30 02:16:21.110] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 4795, Heavy: true
+7154 [2020-04-30 02:16:21.343] [background] [info] - remote=76, local=0
+7154 [2020-04-30 02:16:21.637] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 4795, Heavy: false
+7154 [2020-04-30 02:16:21.712] [background] [info] - remote=76, local=76
+7154 [2020-04-30 02:16:21.713] [background] [info] Cleaning local cache and updating stats
+7154 [2020-04-30 02:16:21.714] [background] [info] -- 0 message bodies deleted from local cache.
+7154 [2020-04-30 02:16:21.717] [background] [info] Sync loop deleting unlinked messages with phase 2.
+7154 [2020-04-30 02:16:21.717] [background] [info] Sync loop complete.
+7154 [2020-04-30 02:16:21.717] [background] [info] Syncing folder list...
+7154 [2020-04-30 02:16:21.827] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 1 - 15423, Heavy: true
+7154 [2020-04-30 02:16:22.100] [metadataExpiration] [info] Scanning for expired metadata
+7154 [2020-04-30 02:16:22.100] [metadataExpiration] [info] -- Will wake for next expiration in 7200sec
+7154 [2020-04-30 02:16:24.524] [background] [info] - remote=1868, local=1
+7154 [2020-04-30 02:16:31.576] [calContacts] [info] Encountered exception: {"debuginfo":"https://apidata.googleusercontent.com/caldav/v2/gmtstephane@gmail.com RETURNED <?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<errors xmlns=\"http://schemas.google.com/g/2005\">\n <error>\n  <domain>usageLimits</domain>\n  <code>dailyLimitExceeded</code>\n  <internalReason>Daily Limit Exceeded. The quota will be reset at midnight Pacific Time (PT). You may monitor your quota usage and adjust limits in the API Console: https://console.developers.google.com/apis/api/caldav.googleapis.com/quotas?project=662287800555</internalReason>\n  <extendedHelp>https://console.developers.google.com/apis/api/caldav.googleapis.com/quotas?project=662287800555</extendedHelp>\n </error>\n</errors>\n","key":"Invalid Response Code: 403","retryable":false,"what":"std::exception"}
+7154 [2020-04-30 02:16:31.577] [calContacts] [info] Suspending sync for 4 hours - Google app API request quota hit.
+7154 [2020-04-30 02:16:34.742] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 1 - 0, Heavy: false
+7154 [2020-04-30 02:16:35.520] [background] [info] - remote=2250, local=2250
+7154 [2020-04-30 02:16:39.302] [background] [warning] [SLOW] Transaction=retrievedMessageBody > 60ms (1750821 microseconds, 59 waiting to aquire)
+7154 [2020-04-30 02:16:42.342] [background] [info] Cleaning local cache and updating stats
+7154 [2020-04-30 02:16:42.353] [background] [info] -- 0 message bodies deleted from local cache.
+7154 [2020-04-30 02:16:42.461] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 0, Heavy: false
+7154 [2020-04-30 02:16:42.680] [background] [info] - remote=49, local=49
+7154 [2020-04-30 02:16:43.056] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 0, Heavy: false
+7154 [2020-04-30 02:16:43.287] [background] [info] - remote=76, local=76
+7154 [2020-04-30 02:16:43.288] [background] [info] Sync loop deleting unlinked messages with phase 1.
+7154 [2020-04-30 02:16:43.290] [background] [info] Sync loop complete.
+7154 [2020-04-30 02:16:43.290] [background] [info] Syncing folder list...
+7154 [2020-04-30 02:17:00.691] [background] [warning] [SLOW] Transaction=retrievedMessageBody > 60ms (14062569 microseconds, 62 waiting to aquire)
+7154 [2020-04-30 02:17:01.985] [background] [info] Sync loop deleting unlinked messages with phase 2.
+7154 [2020-04-30 02:17:01.987] [background] [info] Sync loop complete.
+7154 [2020-04-30 02:17:01.987] [background] [info] Syncing folder list...
+7154 [2020-04-30 02:17:06.071] [background] [info] Sync loop deleting unlinked messages with phase 1.
+7154 [2020-04-30 02:17:06.073] [background] [info] Sync loop complete.
+7154 [2020-04-30 02:17:06.074] [background] [info] Syncing folder list...
+7154 [2020-04-30 02:17:12.114] [background] [info] Sync loop deleting unlinked messages with phase 2.
+7154 [2020-04-30 02:17:12.116] [background] [info] Sync loop complete.
+7154 [2020-04-30 02:17:12.116] [background] [info] Syncing folder list...
+7154 [2020-04-30 02:17:16.213] [background] [info] Sync loop deleting unlinked messages with phase 1.
+7154 [2020-04-30 02:17:16.215] [background] [info] Sync loop complete.
+7154 [2020-04-30 02:17:16.215] [background] [info] Syncing folder list...
+7154 [2020-04-30 02:17:20.951] [background] [info] Sync loop deleting unlinked messages with phase 2.
+7154 [2020-04-30 02:17:20.953] [background] [info] Sync loop complete.
+7154 [2020-04-30 02:17:20.953] [background] [info] Syncing folder list...
+7154 [2020-04-30 02:17:26.348] [background] [info] Sync loop deleting unlinked messages with phase 1.
+7154 [2020-04-30 02:17:26.350] [background] [info] Sync loop complete.
+7154 [2020-04-30 02:17:26.350] [background] [info] Syncing folder list...
+7401 [2020-04-30 02:17:26.694] [main] [info] Identity created at 1580037932 - using ID Schema 1
+7401 [2020-04-30 02:17:26.698] [main] [info] ------------- Starting Sync (gmtstephane@gmail.com) ---------------
+7401 [2020-04-30 02:17:26.710] [metadata] [info] Metadata delta stream starting...
+7401 [2020-04-30 02:17:30.706] [background] [info] Fetching XOAuth2 access token from Gmail for b3476e84
+7401 [2020-04-30 02:17:31.318] [background] [info] Marking all folders as `busy`
+7401 [2020-04-30 02:17:31.320] [background] [info] Syncing folder list...
+7154 [2020-04-30 02:17:31.335] [background] [info] Sync loop deleting unlinked messages with phase 2.
+7154 [2020-04-30 02:17:31.342] [background] [info] Sync loop complete.
+7154 [2020-04-30 02:17:31.342] [background] [info] Syncing folder list...
+7401 [2020-04-30 02:17:32.182] [background] [info] Syncing folder list...
+7401 [2020-04-30 02:17:33.371] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1235692 to 1235692, uidnext 16173 to 16173
+7401 [2020-04-30 02:17:33.663] [background] [warning] [SLOW] Transaction=retrievedMessageBody > 60ms (67848 microseconds, 71 waiting to aquire)
+7154 [2020-04-30 02:17:37.574] [background] [info] Sync loop deleting unlinked messages with phase 1.
+7154 [2020-04-30 02:17:37.576] [background] [info] Sync loop complete.
+7154 [2020-04-30 02:17:37.576] [background] [info] Syncing folder list...
+7401 [2020-04-30 02:17:37.653] [background] [warning] [SLOW] Transaction=retrievedMessageBody > 60ms (65321 microseconds, 155 waiting to aquire)
+7401 [2020-04-30 02:17:41.702] [metadataExpiration] [info] Scanning for expired metadata
+7401 [2020-04-30 02:17:41.702] [metadataExpiration] [info] -- Will wake for next expiration in 7200sec
+7401 [2020-04-30 02:17:43.796] [background] [info] Sync loop deleting unlinked messages with phase 2.
+7401 [2020-04-30 02:17:43.798] [background] [info] Sync loop complete.
+7401 [2020-04-30 02:17:43.798] [background] [info] Syncing folder list...
+7401 [2020-04-30 02:17:47.969] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+7401 [2020-04-30 02:17:52.645] [calContacts] [info] Encountered exception: {"debuginfo":"https://apidata.googleusercontent.com/caldav/v2/gmtstephane@gmail.com RETURNED <?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<errors xmlns=\"http://schemas.google.com/g/2005\">\n <error>\n  <domain>usageLimits</domain>\n  <code>dailyLimitExceeded</code>\n  <internalReason>Daily Limit Exceeded. The quota will be reset at midnight Pacific Time (PT). You may monitor your quota usage and adjust limits in the API Console: https://console.developers.google.com/apis/api/caldav.googleapis.com/quotas?project=662287800555</internalReason>\n  <extendedHelp>https://console.developers.google.com/apis/api/caldav.googleapis.com/quotas?project=662287800555</extendedHelp>\n </error>\n</errors>\n","key":"Invalid Response Code: 403","retryable":false,"what":"std::exception"}
+7401 [2020-04-30 02:17:52.645] [calContacts] [info] Suspending sync for 4 hours - Google app API request quota hit.
+7401 [2020-04-30 02:17:56.448] [background] [info] Sync loop deleting unlinked messages with phase 1.
+7401 [2020-04-30 02:17:56.451] [background] [info] Sync loop complete.
+7401 [2020-04-30 02:17:56.451] [background] [info] Syncing folder list...
+7401 [2020-04-30 02:18:05.755] [background] [info] Sync loop deleting unlinked messages with phase 2.
+7401 [2020-04-30 02:18:05.757] [background] [info] Sync loop complete.
+7401 [2020-04-30 02:18:05.757] [background] [info] Syncing folder list...
+7401 [2020-04-30 02:18:15.487] [background] [info] Sync loop deleting unlinked messages with phase 1.
+7401 [2020-04-30 02:18:15.489] [background] [info] Sync loop complete.
+7401 [2020-04-30 02:18:15.489] [background] [info] Syncing folder list...
+7401 [2020-04-30 02:18:26.353] [background] [info] Sync loop deleting unlinked messages with phase 2.
+7401 [2020-04-30 02:18:26.354] [background] [info] Sync loop complete.
+7401 [2020-04-30 02:18:26.354] [background] [info] Syncing folder list...
+7401 [2020-04-30 02:18:34.069] [background] [info] Sync loop deleting unlinked messages with phase 1.
+7401 [2020-04-30 02:18:34.070] [background] [info] Sync loop complete.
+7401 [2020-04-30 02:18:34.070] [background] [info] Syncing folder list...
+7401 [2020-04-30 02:18:43.957] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 8824, Heavy: false
+7401 [2020-04-30 02:18:44.713] [background] [info] - remote=49, local=49
+7401 [2020-04-30 02:18:44.920] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 4795, Heavy: false
+7401 [2020-04-30 02:18:45.533] [background] [info] - remote=76, local=76
+7401 [2020-04-30 02:18:45.534] [background] [info] Sync loop deleting unlinked messages with phase 2.
+7401 [2020-04-30 02:18:45.536] [background] [info] Sync loop complete.
+7401 [2020-04-30 02:18:45.536] [background] [info] Syncing folder list...
+7401 [2020-04-30 02:18:45.679] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 15366 - 16173, Heavy: false
+7401 [2020-04-30 02:18:47.830] [background] [info] - remote=400, local=400
+7401 [2020-04-30 02:19:01.671] [background] [info] Sync loop deleting unlinked messages with phase 1.
+7401 [2020-04-30 02:19:01.674] [background] [info] Sync loop complete.
+7401 [2020-04-30 02:19:01.674] [background] [info] Syncing folder list...
+7401 [2020-04-30 02:19:11.938] [background] [info] Sync loop deleting unlinked messages with phase 2.
+7401 [2020-04-30 02:19:11.940] [background] [info] Sync loop complete.
+7401 [2020-04-30 02:19:11.940] [background] [info] Syncing folder list...
+7401 [2020-04-30 02:19:12.190] [background] [info] Sync loop deleting unlinked messages with phase 1.
+7401 [2020-04-30 02:19:12.192] [background] [info] Sync loop complete.
+7401 [2020-04-30 02:19:41.744] [main] [info] [local-e701a61e-8648] Running SyncbackDraftTask performLocal:
+7401 [2020-04-30 02:19:41.747] [main] [info] [local-e701a61e-8648] -- Succeeded. Changing status to `remote`
+7401 [2020-04-30 02:19:42.261] [foreground] [info] Idle exited with code 0
+7401 [2020-04-30 02:19:42.263] [foreground] [info] [local-e701a61e-8648] Running SyncbackDraftTask performRemote:
+7401 [2020-04-30 02:19:42.263] [foreground] [info] [local-e701a61e-8648] -- Succeeded. Changing status to `complete`
+7401 [2020-04-30 02:19:42.315] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1235692 to 1235692, uidnext 16173 to 16173
+7401 [2020-04-30 02:19:42.337] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+7401 [2020-04-30 02:19:54.534] [main] [info] [local-3bf918b3-dfcf] Running SyncbackDraftTask performLocal:
+7401 [2020-04-30 02:19:54.537] [main] [info] [local-3bf918b3-dfcf] -- Succeeded. Changing status to `remote`
+7401 [2020-04-30 02:19:54.895] [foreground] [info] Idle exited with code 0
+7401 [2020-04-30 02:19:54.897] [foreground] [info] [local-3bf918b3-dfcf] Running SyncbackDraftTask performRemote:
+7401 [2020-04-30 02:19:54.897] [foreground] [info] [local-3bf918b3-dfcf] -- Succeeded. Changing status to `complete`
+7401 [2020-04-30 02:19:54.951] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1235692 to 1235692, uidnext 16173 to 16173
+7401 [2020-04-30 02:19:54.964] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+7401 [2020-04-30 02:21:12.193] [background] [info] Syncing folder list...
+7401 [2020-04-30 02:21:12.344] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 15366 - 16173, Heavy: false
+7401 [2020-04-30 02:21:12.686] [background] [info] - remote=400, local=400
+7401 [2020-04-30 02:21:13.090] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 8824, Heavy: false
+7401 [2020-04-30 02:21:13.258] [background] [info] - remote=49, local=49
+7401 [2020-04-30 02:21:13.323] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 4795, Heavy: false
+7401 [2020-04-30 02:21:13.478] [background] [info] - remote=76, local=76
+7401 [2020-04-30 02:21:13.480] [background] [info] Sync loop deleting unlinked messages with phase 2.
+7401 [2020-04-30 02:21:13.482] [background] [info] Sync loop complete.
+7401 [2020-04-30 02:21:20.033] [main] [info] [local-fc0cb5c2-9077] Running DestroyDraftTask performLocal:
+7401 [2020-04-30 02:21:20.033] [main] [info] -- Hiding / detatching drafts while they're deleted...
+7401 [2020-04-30 02:21:20.037] [main] [info] -- Replacing local ID ctbSHqSTyFSRtBP3K9rV9iDzVH2PUiHRMSW83PGvX with deleted-fZhI2TlwSRrtDnXETCQBG2Ivf2RluLwxAB7rkfL3
+7401 [2020-04-30 02:21:20.038] [main] [info] [local-fc0cb5c2-9077] -- Succeeded. Changing status to `remote`
+7401 [2020-04-30 02:21:20.414] [foreground] [info] Idle exited with code 0
+7401 [2020-04-30 02:21:20.415] [foreground] [info] [local-fc0cb5c2-9077] Running DestroyDraftTask performRemote:
+7401 [2020-04-30 02:21:20.416] [foreground] [info] [local-fc0cb5c2-9077] -- Succeeded. Changing status to `complete`
+7401 [2020-04-30 02:21:20.468] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1235692 to 1235692, uidnext 16173 to 16173
+7401 [2020-04-30 02:21:20.482] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+8216 [2020-04-30 02:21:26.962] [main] [info] Identity created at 1580037932 - using ID Schema 1
+8216 [2020-04-30 02:21:26.965] [main] [info] ------------- Starting Sync (gmtstephane@gmail.com) ---------------
+8216 [2020-04-30 02:21:26.976] [metadata] [info] Metadata delta stream starting...
+8216 [2020-04-30 02:21:30.973] [background] [info] Fetching XOAuth2 access token from Gmail for b3476e84
+8216 [2020-04-30 02:21:31.520] [background] [info] Marking all folders as `busy`
+8216 [2020-04-30 02:21:31.522] [background] [info] Syncing folder list...
+8216 [2020-04-30 02:21:32.399] [background] [info] Syncing folder list...
+8216 [2020-04-30 02:21:32.676] [background] [info] Sync loop deleting unlinked messages with phase 2.
+8216 [2020-04-30 02:21:32.679] [background] [info] Sync loop complete.
+8216 [2020-04-30 02:21:33.047] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1235692 to 1235692, uidnext 16173 to 16173
+8216 [2020-04-30 02:21:33.061] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+8216 [2020-04-30 02:21:41.969] [metadataExpiration] [info] Scanning for expired metadata
+8216 [2020-04-30 02:21:41.969] [metadataExpiration] [info] -- Will wake for next expiration in 7200sec
+8216 [2020-04-30 02:21:51.813] [calContacts] [info] Encountered exception: {"debuginfo":"https://apidata.googleusercontent.com/caldav/v2/gmtstephane@gmail.com RETURNED <?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<errors xmlns=\"http://schemas.google.com/g/2005\">\n <error>\n  <domain>usageLimits</domain>\n  <code>dailyLimitExceeded</code>\n  <internalReason>Daily Limit Exceeded. The quota will be reset at midnight Pacific Time (PT). You may monitor your quota usage and adjust limits in the API Console: https://console.developers.google.com/apis/api/caldav.googleapis.com/quotas?project=662287800555</internalReason>\n  <extendedHelp>https://console.developers.google.com/apis/api/caldav.googleapis.com/quotas?project=662287800555</extendedHelp>\n </error>\n</errors>\n","key":"Invalid Response Code: 403","retryable":false,"what":"std::exception"}
+8216 [2020-04-30 02:21:51.813] [calContacts] [info] Suspending sync for 4 hours - Google app API request quota hit.
+8487 [2020-04-30 02:23:01.542] [main] [info] Identity created at 1580037932 - using ID Schema 1
+8487 [2020-04-30 02:23:01.544] [main] [info] ------------- Starting Sync (gmtstephane@gmail.com) ---------------
+8487 [2020-04-30 02:23:01.556] [metadata] [info] Metadata delta stream starting...
+8487 [2020-04-30 02:23:04.034] [main] [info] [local-4c50df60-d19c] Running ChangeUnreadTask performLocal:
+8487 [2020-04-30 02:23:04.043] [main] [info] [local-4c50df60-d19c] -- Succeeded. Changing status to `remote`
+8487 [2020-04-30 02:23:05.555] [background] [info] Fetching XOAuth2 access token from Gmail for b3476e84
+8487 [2020-04-30 02:23:06.373] [background] [info] Marking all folders as `busy`
+8487 [2020-04-30 02:23:06.375] [background] [info] Syncing folder list...
+8487 [2020-04-30 02:23:07.943] [background] [info] Syncing folder list...
+8487 [2020-04-30 02:23:08.597] [background] [info] Sync loop deleting unlinked messages with phase 2.
+8487 [2020-04-30 02:23:08.599] [background] [info] Sync loop complete.
+8487 [2020-04-30 02:23:09.360] [foreground] [info] [local-4c50df60-d19c] Running ChangeUnreadTask performRemote:
+8487 [2020-04-30 02:23:09.925] [foreground] [info] [local-4c50df60-d19c] -- Succeeded. Changing status to `complete`
+8487 [2020-04-30 02:23:09.989] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1235692 to 1235721, uidnext 16173 to 16173
+8487 [2020-04-30 02:23:10.440] [foreground] [info] syncFolderChangesViaCondstore - Changes since HMODSEQ 1235692: 1 changed, 0 vanished
+8487 [2020-04-30 02:23:10.456] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+8216 [2020-04-30 02:23:13.362] [foreground] [info] Idle exited with code 0
+8216 [2020-04-30 02:23:13.434] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1235721 to 1235721, uidnext 16173 to 16173
+8216 [2020-04-30 02:23:13.446] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+8487 [2020-04-30 02:23:16.547] [metadataExpiration] [info] Scanning for expired metadata
+8487 [2020-04-30 02:23:16.548] [metadataExpiration] [info] -- Will wake for next expiration in 7200sec
+8487 [2020-04-30 02:23:26.846] [calContacts] [info] Encountered exception: {"debuginfo":"https://apidata.googleusercontent.com/caldav/v2/gmtstephane@gmail.com RETURNED <?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<errors xmlns=\"http://schemas.google.com/g/2005\">\n <error>\n  <domain>usageLimits</domain>\n  <code>dailyLimitExceeded</code>\n  <internalReason>Daily Limit Exceeded. The quota will be reset at midnight Pacific Time (PT). You may monitor your quota usage and adjust limits in the API Console: https://console.developers.google.com/apis/api/caldav.googleapis.com/quotas?project=662287800555</internalReason>\n  <extendedHelp>https://console.developers.google.com/apis/api/caldav.googleapis.com/quotas?project=662287800555</extendedHelp>\n </error>\n</errors>\n","key":"Invalid Response Code: 403","retryable":false,"what":"std::exception"}
+8487 [2020-04-30 02:23:26.846] [calContacts] [info] Suspending sync for 4 hours - Google app API request quota hit.
+8772 [2020-04-30 02:23:51.623] [main] [info] Identity created at 1580037932 - using ID Schema 1
+8772 [2020-04-30 02:23:51.627] [main] [info] ------------- Starting Sync (gmtstephane@gmail.com) ---------------
+8772 [2020-04-30 02:23:51.636] [metadata] [info] Metadata delta stream starting...
+8772 [2020-04-30 02:23:55.635] [background] [info] Fetching XOAuth2 access token from Gmail for b3476e84
+8772 [2020-04-30 02:23:55.903] [background] [info] Marking all folders as `busy`
+8772 [2020-04-30 02:23:55.905] [background] [info] Syncing folder list...
+8772 [2020-04-30 02:23:56.657] [background] [info] Syncing folder list...
+8772 [2020-04-30 02:23:56.776] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 15366 - 16173, Heavy: false
+8772 [2020-04-30 02:23:57.059] [background] [info] - remote=400, local=400
+8772 [2020-04-30 02:23:57.185] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 8824, Heavy: false
+8772 [2020-04-30 02:23:57.606] [background] [info] - remote=49, local=49
+8772 [2020-04-30 02:23:57.644] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1235721 to 1235721, uidnext 16173 to 16173
+8772 [2020-04-30 02:23:57.657] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+8772 [2020-04-30 02:23:57.659] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 4795, Heavy: false
+8772 [2020-04-30 02:23:58.032] [background] [info] - remote=76, local=76
+8772 [2020-04-30 02:23:58.034] [background] [info] Sync loop deleting unlinked messages with phase 2.
+8772 [2020-04-30 02:23:58.036] [background] [info] Sync loop complete.
+8772 [2020-04-30 02:24:06.631] [metadataExpiration] [info] Scanning for expired metadata
+8772 [2020-04-30 02:24:06.631] [metadataExpiration] [info] -- Will wake for next expiration in 7200sec
+8772 [2020-04-30 02:24:16.124] [calContacts] [info] Encountered exception: {"debuginfo":"https://apidata.googleusercontent.com/caldav/v2/gmtstephane@gmail.com RETURNED <?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<errors xmlns=\"http://schemas.google.com/g/2005\">\n <error>\n  <domain>usageLimits</domain>\n  <code>dailyLimitExceeded</code>\n  <internalReason>Daily Limit Exceeded. The quota will be reset at midnight Pacific Time (PT). You may monitor your quota usage and adjust limits in the API Console: https://console.developers.google.com/apis/api/caldav.googleapis.com/quotas?project=662287800555</internalReason>\n  <extendedHelp>https://console.developers.google.com/apis/api/caldav.googleapis.com/quotas?project=662287800555</extendedHelp>\n </error>\n</errors>\n","key":"Invalid Response Code: 403","retryable":false,"what":"std::exception"}
+8772 [2020-04-30 02:24:16.125] [calContacts] [info] Suspending sync for 4 hours - Google app API request quota hit.
+8772 [2020-04-30 02:24:25.691] [main] [info] [local-fc7853c0-df26] Running ChangeUnreadTask performLocal:
+8772 [2020-04-30 02:24:25.697] [main] [info] [local-fc7853c0-df26] -- Succeeded. Changing status to `remote`
+8772 [2020-04-30 02:24:26.047] [foreground] [info] Idle exited with code 0
+8772 [2020-04-30 02:24:26.050] [foreground] [info] [local-fc7853c0-df26] Running ChangeUnreadTask performRemote:
+8772 [2020-04-30 02:24:26.297] [foreground] [info] [local-fc7853c0-df26] -- Succeeded. Changing status to `complete`
+8772 [2020-04-30 02:24:26.373] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1235721 to 1235753, uidnext 16173 to 16173
+8772 [2020-04-30 02:24:26.455] [foreground] [info] syncFolderChangesViaCondstore - Changes since HMODSEQ 1235721: 1 changed, 0 vanished
+8772 [2020-04-30 02:24:26.470] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+8772 [2020-04-30 02:24:27.708] [main] [info] [local-66f73fd2-b498] Running ChangeUnreadTask performLocal:
+8772 [2020-04-30 02:24:27.713] [main] [info] [local-66f73fd2-b498] -- Succeeded. Changing status to `remote`
+8772 [2020-04-30 02:24:28.150] [foreground] [info] Idle exited with code 0
+8772 [2020-04-30 02:24:28.152] [foreground] [info] [local-66f73fd2-b498] Running ChangeUnreadTask performRemote:
+8772 [2020-04-30 02:24:28.374] [foreground] [info] [local-66f73fd2-b498] -- Succeeded. Changing status to `complete`
+8772 [2020-04-30 02:24:28.672] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1235753 to 1235835, uidnext 16173 to 16173
+8772 [2020-04-30 02:24:28.757] [foreground] [info] syncFolderChangesViaCondstore - Changes since HMODSEQ 1235753: 1 changed, 0 vanished
+8772 [2020-04-30 02:24:28.771] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+8772 [2020-04-30 02:24:30.458] [main] [info] [local-02ab960f-feb7] Running ChangeUnreadTask performLocal:
+8772 [2020-04-30 02:24:30.464] [main] [info] [local-02ab960f-feb7] -- Succeeded. Changing status to `remote`
+8772 [2020-04-30 02:24:31.014] [foreground] [info] Idle exited with code 0
+8772 [2020-04-30 02:24:31.015] [foreground] [info] [local-02ab960f-feb7] Running ChangeUnreadTask performRemote:
+8772 [2020-04-30 02:24:31.709] [foreground] [info] [local-02ab960f-feb7] -- Succeeded. Changing status to `complete`
+8772 [2020-04-30 02:24:32.158] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1235835 to 1235896, uidnext 16173 to 16173
+8772 [2020-04-30 02:24:32.502] [foreground] [info] syncFolderChangesViaCondstore - Changes since HMODSEQ 1235835: 1 changed, 0 vanished
+8772 [2020-04-30 02:24:32.515] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+8772 [2020-04-30 02:25:58.036] [background] [info] Syncing folder list...
+8772 [2020-04-30 02:25:58.162] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 15366 - 16173, Heavy: false
+8772 [2020-04-30 02:25:58.417] [background] [info] - remote=400, local=400
+8772 [2020-04-30 02:25:58.483] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 8824, Heavy: false
+8772 [2020-04-30 02:25:58.608] [background] [info] - remote=49, local=49
+8772 [2020-04-30 02:25:58.681] [background] [info] Sync loop deleting unlinked messages with phase 1.
+8772 [2020-04-30 02:25:58.684] [background] [info] Sync loop complete.
+10586 [2020-04-30 02:27:54.751] [main] [info] Identity created at 1580037932 - using ID Schema 1
+10586 [2020-04-30 02:27:54.754] [main] [info] ------------- Starting Sync (gmtstephane@gmail.com) ---------------
+10586 [2020-04-30 02:27:54.766] [metadata] [info] Metadata delta stream starting...
+8772 [2020-04-30 02:27:58.684] [background] [info] Syncing folder list...
+8772 [2020-04-30 02:27:58.797] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 1 - 0, Heavy: false
+8772 [2020-04-30 02:27:59.602] [background] [info] - remote=2250, local=2250
+10586 [2020-04-30 02:27:58.764] [background] [info] Fetching XOAuth2 access token from Gmail for b3476e84
+10586 [2020-04-30 02:27:59.159] [background] [info] Marking all folders as `busy`
+10586 [2020-04-30 02:27:59.160] [background] [info] Syncing folder list...
+8772 [2020-04-30 02:27:59.820] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 0, Heavy: false
+8772 [2020-04-30 02:27:59.990] [background] [info] - remote=49, local=49
+8772 [2020-04-30 02:28:00.046] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 0, Heavy: false
+8772 [2020-04-30 02:28:00.193] [background] [info] - remote=76, local=76
+8772 [2020-04-30 02:28:00.194] [background] [info] Sync loop deleting unlinked messages with phase 2.
+8772 [2020-04-30 02:28:00.195] [background] [info] Sync loop complete.
+10586 [2020-04-30 02:28:00.099] [background] [info] Syncing folder list...
+10586 [2020-04-30 02:28:00.363] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 4795, Heavy: false
+10586 [2020-04-30 02:28:00.539] [background] [info] - remote=76, local=76
+10586 [2020-04-30 02:28:00.540] [background] [info] Sync loop deleting unlinked messages with phase 2.
+10586 [2020-04-30 02:28:00.542] [background] [info] Sync loop complete.
+10586 [2020-04-30 02:28:00.781] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1235896 to 1235896, uidnext 16173 to 16173
+10586 [2020-04-30 02:28:00.797] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+10586 [2020-04-30 02:28:09.758] [metadataExpiration] [info] Scanning for expired metadata
+10586 [2020-04-30 02:28:09.758] [metadataExpiration] [info] -- Will wake for next expiration in 7200sec
+10586 [2020-04-30 02:28:22.775] [calContacts] [info] Encountered exception: {"debuginfo":"https://apidata.googleusercontent.com/caldav/v2/gmtstephane@gmail.com RETURNED <?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<errors xmlns=\"http://schemas.google.com/g/2005\">\n <error>\n  <domain>usageLimits</domain>\n  <code>dailyLimitExceeded</code>\n  <internalReason>Daily Limit Exceeded. The quota will be reset at midnight Pacific Time (PT). You may monitor your quota usage and adjust limits in the API Console: https://console.developers.google.com/apis/api/caldav.googleapis.com/quotas?project=662287800555</internalReason>\n  <extendedHelp>https://console.developers.google.com/apis/api/caldav.googleapis.com/quotas?project=662287800555</extendedHelp>\n </error>\n</errors>\n","key":"Invalid Response Code: 403","retryable":false,"what":"std::exception"}
+10586 [2020-04-30 02:28:22.776] [calContacts] [info] Suspending sync for 4 hours - Google app API request quota hit.
+10586 [2020-04-30 02:30:00.543] [background] [info] Syncing folder list...
+10586 [2020-04-30 02:30:00.667] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 15366 - 16173, Heavy: false
+10586 [2020-04-30 02:30:00.928] [background] [info] - remote=400, local=400
+10586 [2020-04-30 02:30:00.988] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 8824, Heavy: false
+10586 [2020-04-30 02:30:01.122] [background] [info] - remote=49, local=49
+10586 [2020-04-30 02:30:01.195] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 4795, Heavy: false
+10586 [2020-04-30 02:30:01.377] [background] [info] - remote=76, local=76
+10586 [2020-04-30 02:30:01.378] [background] [info] Sync loop deleting unlinked messages with phase 1.
+10586 [2020-04-30 02:30:01.381] [background] [info] Sync loop complete.
+10586 [2020-04-30 02:31:31.228] [main] [info] [local-99ec6ba1-2fe4] Running ChangeUnreadTask performLocal:
+10586 [2020-04-30 02:31:31.234] [main] [info] [local-99ec6ba1-2fe4] -- Succeeded. Changing status to `remote`
+10586 [2020-04-30 02:31:31.624] [foreground] [info] Idle exited with code 0
+10586 [2020-04-30 02:31:31.626] [foreground] [info] [local-99ec6ba1-2fe4] Running ChangeUnreadTask performRemote:
+10586 [2020-04-30 02:31:31.930] [foreground] [info] [local-99ec6ba1-2fe4] -- Succeeded. Changing status to `complete`
+10586 [2020-04-30 02:31:31.981] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1235896 to 1235924, uidnext 16173 to 16173
+10586 [2020-04-30 02:31:32.045] [foreground] [info] syncFolderChangesViaCondstore - Changes since HMODSEQ 1235896: 1 changed, 0 vanished
+10586 [2020-04-30 02:31:32.058] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+10586 [2020-04-30 02:31:56.829] [main] [info] [local-00e97b4f-3ebf] Running SyncbackDraftTask performLocal:
+10586 [2020-04-30 02:31:56.831] [main] [info] [local-00e97b4f-3ebf] -- Succeeded. Changing status to `remote`
+10586 [2020-04-30 02:31:57.170] [foreground] [info] Idle exited with code 0
+10586 [2020-04-30 02:31:57.171] [foreground] [info] [local-00e97b4f-3ebf] Running SyncbackDraftTask performRemote:
+10586 [2020-04-30 02:31:57.171] [foreground] [info] [local-00e97b4f-3ebf] -- Succeeded. Changing status to `complete`
+10586 [2020-04-30 02:31:57.219] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1235924 to 1235953, uidnext 16173 to 16173
+10586 [2020-04-30 02:31:57.277] [foreground] [info] syncFolderChangesViaCondstore - Changes since HMODSEQ 1235924: 0 changed, 0 vanished
+10586 [2020-04-30 02:31:57.285] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+10586 [2020-04-30 02:32:01.381] [background] [info] Syncing folder list...
+10586 [2020-04-30 02:32:01.555] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 15366 - 16173, Heavy: false
+10586 [2020-04-30 02:32:01.783] [background] [info] - remote=400, local=400
+10586 [2020-04-30 02:32:01.878] [background] [info] Sync loop deleting unlinked messages with phase 2.
+10586 [2020-04-30 02:32:01.880] [background] [info] Sync loop complete.
+10586 [2020-04-30 02:32:09.563] [main] [info] [local-f3def07e-cabc] Running SyncbackDraftTask performLocal:
+10586 [2020-04-30 02:32:09.567] [main] [info] [local-f3def07e-cabc] -- Succeeded. Changing status to `remote`
+10586 [2020-04-30 02:32:09.923] [foreground] [info] Idle exited with code 0
+10586 [2020-04-30 02:32:09.925] [foreground] [info] [local-f3def07e-cabc] Running SyncbackDraftTask performRemote:
+10586 [2020-04-30 02:32:09.926] [foreground] [info] [local-f3def07e-cabc] -- Succeeded. Changing status to `complete`
+10586 [2020-04-30 02:32:09.972] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1235953 to 1235953, uidnext 16173 to 16173
+10586 [2020-04-30 02:32:09.985] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+10586 [2020-04-30 02:32:11.651] [main] [info] [local-3b4b8470-3115] Running DestroyDraftTask performLocal:
+10586 [2020-04-30 02:32:11.651] [main] [info] -- Hiding / detatching drafts while they're deleted...
+10586 [2020-04-30 02:32:11.655] [main] [info] -- Replacing local ID S6QNNgtAAiYAeoaw7WarxsG1YN7SjK9kQWENaoSmy with deleted-00r66B8yTyVmaHSjswpTpc7DxjV8T9RR88M1yHnh
+10586 [2020-04-30 02:32:11.656] [main] [info] [local-3b4b8470-3115] -- Succeeded. Changing status to `remote`
+10586 [2020-04-30 02:32:12.001] [foreground] [info] Idle exited with code 0
+10586 [2020-04-30 02:32:12.002] [foreground] [info] [local-3b4b8470-3115] Running DestroyDraftTask performRemote:
+10586 [2020-04-30 02:32:12.003] [foreground] [info] [local-3b4b8470-3115] -- Succeeded. Changing status to `complete`
+10586 [2020-04-30 02:32:12.043] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1235953 to 1235953, uidnext 16173 to 16173
+10586 [2020-04-30 02:32:12.054] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+10586 [2020-04-30 02:34:01.880] [background] [info] Syncing folder list...
+10586 [2020-04-30 02:34:02.023] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 8824, Heavy: false
+10586 [2020-04-30 02:34:02.130] [background] [info] - remote=49, local=49
+10586 [2020-04-30 02:34:02.168] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 4795, Heavy: false
+10586 [2020-04-30 02:34:02.278] [background] [info] - remote=76, local=76
+10586 [2020-04-30 02:34:02.279] [background] [info] Sync loop deleting unlinked messages with phase 1.
+10586 [2020-04-30 02:34:02.281] [background] [info] Sync loop complete.
+10586 [2020-04-30 02:36:02.281] [background] [info] Syncing folder list...
+10586 [2020-04-30 02:36:02.396] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 15366 - 16173, Heavy: false
+10586 [2020-04-30 02:36:02.629] [background] [info] - remote=400, local=400
+10586 [2020-04-30 02:36:02.722] [background] [info] Sync loop deleting unlinked messages with phase 2.
+10586 [2020-04-30 02:36:02.724] [background] [info] Sync loop complete.
+10586 [2020-04-30 02:38:02.724] [background] [info] Syncing folder list...
+10586 [2020-04-30 02:38:02.806] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 1 - 0, Heavy: false
+10586 [2020-04-30 02:38:03.541] [background] [info] - remote=2250, local=2250
+10586 [2020-04-30 02:38:03.618] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 0, Heavy: false
+10586 [2020-04-30 02:38:03.720] [background] [info] - remote=49, local=49
+10586 [2020-04-30 02:38:03.760] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 0, Heavy: false
+10586 [2020-04-30 02:38:03.886] [background] [info] - remote=76, local=76
+10586 [2020-04-30 02:38:03.888] [background] [info] Sync loop deleting unlinked messages with phase 1.
+10586 [2020-04-30 02:38:03.890] [background] [info] Sync loop complete.
+10586 [2020-04-30 02:40:03.890] [background] [info] Syncing folder list...
+10586 [2020-04-30 02:40:04.006] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 15366 - 16173, Heavy: false
+10586 [2020-04-30 02:40:04.218] [background] [info] - remote=400, local=400
+10586 [2020-04-30 02:40:04.271] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 8824, Heavy: false
+10586 [2020-04-30 02:40:04.387] [background] [info] - remote=49, local=49
+10586 [2020-04-30 02:40:04.426] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 4795, Heavy: false
+10586 [2020-04-30 02:40:04.546] [background] [info] - remote=76, local=76
+10586 [2020-04-30 02:40:04.547] [background] [info] Sync loop deleting unlinked messages with phase 2.
+10586 [2020-04-30 02:40:04.550] [background] [info] Sync loop complete.
+10586 [2020-04-30 02:42:04.550] [background] [info] Syncing folder list...
+10586 [2020-04-30 02:42:04.734] [background] [info] Sync loop deleting unlinked messages with phase 1.
+10586 [2020-04-30 02:42:04.736] [background] [info] Sync loop complete.
+10586 [2020-04-30 02:44:04.737] [background] [info] Syncing folder list...
+10586 [2020-04-30 02:44:04.831] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 15366 - 16173, Heavy: false
+10586 [2020-04-30 02:44:05.074] [background] [info] - remote=400, local=400
+10586 [2020-04-30 02:44:05.123] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 8824, Heavy: false
+10586 [2020-04-30 02:44:05.225] [background] [info] - remote=49, local=49
+10586 [2020-04-30 02:44:05.273] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 4795, Heavy: false
+10586 [2020-04-30 02:44:05.382] [background] [info] - remote=76, local=76
+10586 [2020-04-30 02:44:05.383] [background] [info] Sync loop deleting unlinked messages with phase 2.
+10586 [2020-04-30 02:44:05.384] [background] [info] Sync loop complete.
+10586 [2020-04-30 02:46:05.384] [background] [info] Syncing folder list...
+10586 [2020-04-30 02:46:05.578] [background] [info] Sync loop deleting unlinked messages with phase 1.
+10586 [2020-04-30 02:46:05.580] [background] [info] Sync loop complete.
+10586 [2020-04-30 02:46:46.158] [metadata] [info] Metadata delta stream closed.
+10586 [2020-04-30 02:46:46.163] [metadata] [info] Metadata delta stream starting...
+10586 [2020-04-30 02:48:05.580] [background] [info] Syncing folder list...
+10586 [2020-04-30 02:48:05.684] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 1 - 0, Heavy: false
+10586 [2020-04-30 02:48:06.545] [background] [info] - remote=2250, local=2250
+10586 [2020-04-30 02:48:06.605] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 0, Heavy: false
+10586 [2020-04-30 02:48:06.741] [background] [info] - remote=49, local=49
+10586 [2020-04-30 02:48:06.789] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 0, Heavy: false
+10586 [2020-04-30 02:48:06.908] [background] [info] - remote=76, local=76
+10586 [2020-04-30 02:48:06.909] [background] [info] Sync loop deleting unlinked messages with phase 2.
+10586 [2020-04-30 02:48:06.911] [background] [info] Sync loop complete.
+10586 [2020-04-30 02:50:06.911] [background] [info] Syncing folder list...
+10586 [2020-04-30 02:50:07.102] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 15366 - 16173, Heavy: false
+10586 [2020-04-30 02:50:07.337] [background] [info] - remote=400, local=400
+10586 [2020-04-30 02:50:07.387] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 8824, Heavy: false
+10586 [2020-04-30 02:50:07.515] [background] [info] - remote=49, local=49
+10586 [2020-04-30 02:50:07.555] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 4795, Heavy: false
+10586 [2020-04-30 02:50:07.687] [background] [info] - remote=76, local=76
+10586 [2020-04-30 02:50:07.688] [background] [info] Sync loop deleting unlinked messages with phase 1.
+10586 [2020-04-30 02:50:07.689] [background] [info] Sync loop complete.
+10586 [2020-04-30 02:52:07.690] [background] [info] Syncing folder list...
+10586 [2020-04-30 02:52:07.979] [background] [info] Sync loop deleting unlinked messages with phase 2.
+10586 [2020-04-30 02:52:07.980] [background] [info] Sync loop complete.
+10586 [2020-04-30 02:54:07.981] [background] [info] Syncing folder list...
+10586 [2020-04-30 02:54:08.353] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 15366 - 16173, Heavy: false
+10586 [2020-04-30 02:54:08.565] [background] [info] - remote=400, local=400
+10586 [2020-04-30 02:54:08.622] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 8824, Heavy: false
+10586 [2020-04-30 02:54:08.718] [background] [info] - remote=49, local=49
+10586 [2020-04-30 02:54:08.761] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 4795, Heavy: false
+10586 [2020-04-30 02:54:08.868] [background] [info] - remote=76, local=76
+10586 [2020-04-30 02:54:08.869] [background] [info] Sync loop deleting unlinked messages with phase 1.
+10586 [2020-04-30 02:54:08.870] [background] [info] Sync loop complete.
+10586 [2020-04-30 02:56:08.870] [background] [info] Syncing folder list...
+10586 [2020-04-30 02:56:09.021] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 15366 - 16173, Heavy: false
+10586 [2020-04-30 02:56:09.236] [background] [info] - remote=400, local=400
+10586 [2020-04-30 02:56:09.287] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 8824, Heavy: false
+10586 [2020-04-30 02:56:09.384] [background] [info] - remote=49, local=49
+10586 [2020-04-30 02:56:09.453] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 4795, Heavy: false
+10586 [2020-04-30 02:56:09.580] [background] [info] - remote=76, local=76
+10586 [2020-04-30 02:56:09.581] [background] [info] Sync loop deleting unlinked messages with phase 2.
+10586 [2020-04-30 02:56:09.583] [background] [info] Sync loop complete.
+10586 [2020-04-30 02:58:09.583] [background] [info] Syncing folder list...
+10586 [2020-04-30 02:58:09.677] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 1 - 0, Heavy: false
+10586 [2020-04-30 02:58:10.439] [background] [info] - remote=2250, local=2250
+10586 [2020-04-30 02:58:10.502] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 0, Heavy: false
+10586 [2020-04-30 02:58:10.615] [background] [info] - remote=49, local=49
+10586 [2020-04-30 02:58:10.659] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 0, Heavy: false
+10586 [2020-04-30 02:58:10.773] [background] [info] - remote=76, local=76
+10586 [2020-04-30 02:58:10.774] [background] [info] Sync loop deleting unlinked messages with phase 1.
+10586 [2020-04-30 02:58:10.776] [background] [info] Sync loop complete.
+10586 [2020-04-30 03:00:10.777] [background] [info] Syncing folder list...
+10586 [2020-04-30 03:00:11.009] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 8824, Heavy: false
+10586 [2020-04-30 03:00:11.158] [background] [info] - remote=49, local=49
+10586 [2020-04-30 03:00:11.208] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 4795, Heavy: false
+10586 [2020-04-30 03:00:11.328] [background] [info] - remote=76, local=76
+10586 [2020-04-30 03:00:11.329] [background] [info] Sync loop deleting unlinked messages with phase 2.
+10586 [2020-04-30 03:00:11.331] [background] [info] Sync loop complete.
+10586 [2020-04-30 03:00:12.253] [foreground] [info] Idle exited with code 1
+10586 [2020-04-30 03:00:12.919] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1235953 to 1235953, uidnext 16173 to 16173
+10586 [2020-04-30 03:00:12.931] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+10586 [2020-04-30 03:02:11.332] [background] [info] Syncing folder list...
+10586 [2020-04-30 03:02:11.516] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 15366 - 16173, Heavy: false
+10586 [2020-04-30 03:02:11.751] [background] [info] - remote=400, local=400
+10586 [2020-04-30 03:02:11.847] [background] [info] Sync loop deleting unlinked messages with phase 1.
+10586 [2020-04-30 03:02:11.849] [background] [info] Sync loop complete.
+10586 [2020-04-30 03:04:11.849] [background] [info] Syncing folder list...
+10586 [2020-04-30 03:04:12.005] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 15366 - 16173, Heavy: false
+10586 [2020-04-30 03:04:12.179] [background] [info] - remote=400, local=400
+10586 [2020-04-30 03:04:12.218] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 8824, Heavy: false
+10586 [2020-04-30 03:04:12.326] [background] [info] - remote=49, local=49
+10586 [2020-04-30 03:04:12.367] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 4795, Heavy: false
+10586 [2020-04-30 03:04:12.552] [background] [info] - remote=76, local=76
+10586 [2020-04-30 03:04:12.553] [background] [info] Sync loop deleting unlinked messages with phase 2.
+10586 [2020-04-30 03:04:12.555] [background] [info] Sync loop complete.
+10586 [2020-04-30 03:04:41.497] [metadata] [info] Metadata delta stream closed.
+10586 [2020-04-30 03:04:41.501] [metadata] [info] Metadata delta stream starting...
+10586 [2020-04-30 03:06:12.555] [background] [info] Syncing folder list...
+10586 [2020-04-30 03:06:12.794] [background] [info] Sync loop deleting unlinked messages with phase 1.
+10586 [2020-04-30 03:06:12.796] [background] [info] Sync loop complete.
+10586 [2020-04-30 03:08:12.796] [background] [info] Syncing folder list...
+10586 [2020-04-30 03:08:12.953] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 1 - 0, Heavy: false
+10586 [2020-04-30 03:08:13.738] [background] [info] - remote=2250, local=2250
+10586 [2020-04-30 03:08:13.803] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 0, Heavy: false
+10586 [2020-04-30 03:08:13.916] [background] [info] - remote=49, local=49
+10586 [2020-04-30 03:08:13.952] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 0, Heavy: false
+10586 [2020-04-30 03:08:14.073] [background] [info] - remote=76, local=76
+10586 [2020-04-30 03:08:14.075] [background] [info] Sync loop deleting unlinked messages with phase 2.
+10586 [2020-04-30 03:08:14.077] [background] [info] Sync loop complete.
+10586 [2020-04-30 03:10:14.077] [background] [info] Syncing folder list...
+10586 [2020-04-30 03:10:14.253] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 15366 - 16173, Heavy: false
+10586 [2020-04-30 03:10:14.497] [background] [info] - remote=400, local=400
+10586 [2020-04-30 03:10:14.551] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 8824, Heavy: false
+10586 [2020-04-30 03:10:14.654] [background] [info] - remote=49, local=49
+10586 [2020-04-30 03:10:14.691] [background] [info] Sync loop deleting unlinked messages with phase 1.
+10586 [2020-04-30 03:10:14.693] [background] [info] Sync loop complete.
+10586 [2020-04-30 03:12:14.693] [background] [info] Syncing folder list...
+10586 [2020-04-30 03:12:14.952] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 4795, Heavy: false
+10586 [2020-04-30 03:12:15.065] [background] [info] - remote=76, local=76
+10586 [2020-04-30 03:12:15.066] [background] [info] Sync loop deleting unlinked messages with phase 2.
+10586 [2020-04-30 03:12:15.067] [background] [info] Sync loop complete.
+10586 [2020-04-30 03:14:15.067] [background] [info] Syncing folder list...
+10586 [2020-04-30 03:14:15.222] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 15366 - 16173, Heavy: false
+10586 [2020-04-30 03:14:15.416] [background] [info] - remote=400, local=400
+10586 [2020-04-30 03:14:15.495] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 8824, Heavy: false
+10586 [2020-04-30 03:14:15.605] [background] [info] - remote=49, local=49
+10586 [2020-04-30 03:14:15.646] [background] [info] Sync loop deleting unlinked messages with phase 1.
+10586 [2020-04-30 03:14:15.648] [background] [info] Sync loop complete.
+10586 [2020-04-30 03:16:15.648] [background] [info] Syncing folder list...
+10586 [2020-04-30 03:16:15.912] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 4795, Heavy: false
+10586 [2020-04-30 03:16:16.031] [background] [info] - remote=76, local=76
+10586 [2020-04-30 03:16:16.032] [background] [info] Sync loop deleting unlinked messages with phase 2.
+10586 [2020-04-30 03:16:16.034] [background] [info] Sync loop complete.
+10586 [2020-04-30 03:18:16.034] [background] [info] Syncing folder list...
+10586 [2020-04-30 03:18:16.131] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 1 - 0, Heavy: false
+10586 [2020-04-30 03:18:16.865] [background] [info] - remote=2250, local=2250
+10586 [2020-04-30 03:18:16.893] [background] [info] Cleaning local cache and updating stats
+10586 [2020-04-30 03:18:16.904] [background] [info] -- 0 message bodies deleted from local cache.
+10586 [2020-04-30 03:18:17.000] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 0, Heavy: false
+10586 [2020-04-30 03:18:17.125] [background] [info] - remote=49, local=49
+10586 [2020-04-30 03:18:17.125] [background] [info] Cleaning local cache and updating stats
+10586 [2020-04-30 03:18:17.129] [background] [info] -- 0 message bodies deleted from local cache.
+10586 [2020-04-30 03:18:17.171] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 0, Heavy: false
+10586 [2020-04-30 03:18:17.292] [background] [info] - remote=76, local=76
+10586 [2020-04-30 03:18:17.292] [background] [info] Cleaning local cache and updating stats
+10586 [2020-04-30 03:18:17.295] [background] [info] -- 0 message bodies deleted from local cache.
+10586 [2020-04-30 03:18:17.296] [background] [info] Sync loop deleting unlinked messages with phase 1.
+10586 [2020-04-30 03:18:17.298] [background] [info] Sync loop complete.
+10586 [2020-04-30 03:19:47.083] [metadata] [info] Metadata delta stream closed.
+10586 [2020-04-30 03:19:47.087] [metadata] [info] Metadata delta stream starting...
+10586 [2020-04-30 03:20:17.298] [background] [info] Syncing folder list...
+10586 [2020-04-30 03:20:17.382] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 15366 - 16173, Heavy: false
+10586 [2020-04-30 03:20:17.609] [background] [info] - remote=400, local=400
+10586 [2020-04-30 03:20:17.696] [background] [info] Sync loop deleting unlinked messages with phase 2.
+10586 [2020-04-30 03:20:17.698] [background] [info] Sync loop complete.
+10586 [2020-04-30 03:22:17.698] [background] [info] Syncing folder list...
+10586 [2020-04-30 03:22:17.918] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 8824, Heavy: false
+10586 [2020-04-30 03:22:18.068] [background] [info] - remote=49, local=49
+10586 [2020-04-30 03:22:18.119] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 4795, Heavy: false
+10586 [2020-04-30 03:22:18.246] [background] [info] - remote=76, local=76
+10586 [2020-04-30 03:22:18.248] [background] [info] Sync loop deleting unlinked messages with phase 1.
+10586 [2020-04-30 03:22:18.250] [background] [info] Sync loop complete.
+10586 [2020-04-30 03:24:18.250] [background] [info] Syncing folder list...
+10586 [2020-04-30 03:24:18.347] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 15366 - 16173, Heavy: false
+10586 [2020-04-30 03:24:18.641] [background] [info] - remote=400, local=400
+10586 [2020-04-30 03:24:18.739] [background] [info] Sync loop deleting unlinked messages with phase 2.
+10586 [2020-04-30 03:24:18.741] [background] [info] Sync loop complete.
+10586 [2020-04-30 03:26:18.741] [background] [info] Syncing folder list...
+10586 [2020-04-30 03:26:18.866] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 8824, Heavy: false
+10586 [2020-04-30 03:26:18.983] [background] [info] - remote=49, local=49
+10586 [2020-04-30 03:26:19.027] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 4795, Heavy: false
+10586 [2020-04-30 03:26:19.139] [background] [info] - remote=76, local=76
+10586 [2020-04-30 03:26:19.140] [background] [info] Sync loop deleting unlinked messages with phase 1.
+10586 [2020-04-30 03:26:19.142] [background] [info] Sync loop complete.
+10586 [2020-04-30 03:28:13.146] [foreground] [info] Idle exited with code 1
+10586 [2020-04-30 03:28:13.146] [foreground] [info] Fetching XOAuth2 access token from Gmail for b3476e84
+10586 [2020-04-30 03:28:13.973] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1235953 to 1235953, uidnext 16173 to 16173
+10586 [2020-04-30 03:28:13.983] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+10586 [2020-04-30 03:28:19.142] [background] [info] Syncing folder list...
+10586 [2020-04-30 03:28:19.306] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 1 - 0, Heavy: false
+10586 [2020-04-30 03:28:20.024] [background] [info] - remote=2250, local=2250
+10586 [2020-04-30 03:28:20.087] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 0, Heavy: false
+10586 [2020-04-30 03:28:20.208] [background] [info] - remote=49, local=49
+10586 [2020-04-30 03:28:20.249] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 0, Heavy: false
+10586 [2020-04-30 03:28:20.379] [background] [info] - remote=76, local=76
+10586 [2020-04-30 03:28:20.380] [background] [info] Sync loop deleting unlinked messages with phase 2.
+10586 [2020-04-30 03:28:20.382] [background] [info] Sync loop complete.
+10586 [2020-04-30 03:30:20.382] [background] [info] Syncing folder list...
+10586 [2020-04-30 03:30:20.638] [background] [info] Sync loop deleting unlinked messages with phase 1.
+10586 [2020-04-30 03:30:20.641] [background] [info] Sync loop complete.
+10586 [2020-04-30 03:32:20.641] [background] [info] Syncing folder list...
+10586 [2020-04-30 03:32:20.731] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 15366 - 16173, Heavy: false
+10586 [2020-04-30 03:32:20.966] [background] [info] - remote=400, local=400
+10586 [2020-04-30 03:32:21.027] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 8824, Heavy: false
+10586 [2020-04-30 03:32:21.136] [background] [info] - remote=49, local=49
+10586 [2020-04-30 03:32:21.178] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 4795, Heavy: false
+10586 [2020-04-30 03:32:21.303] [background] [info] - remote=76, local=76
+10586 [2020-04-30 03:32:21.305] [background] [info] Sync loop deleting unlinked messages with phase 2.
+10586 [2020-04-30 03:32:21.307] [background] [info] Sync loop complete.
+10586 [2020-04-30 03:34:21.307] [background] [info] Syncing folder list...
+10586 [2020-04-30 03:34:21.421] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 15366 - 16173, Heavy: false
+10586 [2020-04-30 03:34:21.653] [background] [info] - remote=400, local=400
+10586 [2020-04-30 03:34:21.765] [background] [info] Sync loop deleting unlinked messages with phase 1.
+10586 [2020-04-30 03:34:21.767] [background] [info] Sync loop complete.
+10586 [2020-04-30 03:36:21.767] [background] [info] Syncing folder list...
+10586 [2020-04-30 03:36:21.907] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 8824, Heavy: false
+10586 [2020-04-30 03:36:22.052] [background] [info] - remote=49, local=49
+10586 [2020-04-30 03:36:22.099] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 4795, Heavy: false
+10586 [2020-04-30 03:36:22.230] [background] [info] - remote=76, local=76
+10586 [2020-04-30 03:36:22.231] [background] [info] Sync loop deleting unlinked messages with phase 2.
+10586 [2020-04-30 03:36:22.233] [background] [info] Sync loop complete.
+10586 [2020-04-30 03:38:02.979] [metadata] [info] Metadata delta stream closed.
+10586 [2020-04-30 03:38:02.983] [metadata] [info] Metadata delta stream starting...
+10586 [2020-04-30 03:38:22.234] [background] [info] Syncing folder list...
+10586 [2020-04-30 03:38:22.327] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 1 - 0, Heavy: false
+10586 [2020-04-30 03:38:23.180] [background] [info] - remote=2250, local=2250
+10586 [2020-04-30 03:38:23.255] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 0, Heavy: false
+10586 [2020-04-30 03:38:23.371] [background] [info] - remote=49, local=49
+10586 [2020-04-30 03:38:23.424] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 0, Heavy: false
+10586 [2020-04-30 03:38:23.529] [background] [info] - remote=76, local=76
+10586 [2020-04-30 03:38:23.530] [background] [info] Sync loop deleting unlinked messages with phase 1.
+10586 [2020-04-30 03:38:23.532] [background] [info] Sync loop complete.
+23653 [2020-04-30 03:39:50.298] [main] [info] Identity created at 1580037932 - using ID Schema 1
+23653 [2020-04-30 03:39:50.302] [main] [info] ------------- Starting Sync (gmtstephane@gmail.com) ---------------
+23653 [2020-04-30 03:39:50.309] [metadata] [info] Metadata delta stream starting...
+23653 [2020-04-30 03:39:54.308] [background] [info] Fetching XOAuth2 access token from Gmail for b3476e84
+23653 [2020-04-30 03:39:54.625] [background] [info] Marking all folders as `busy`
+23653 [2020-04-30 03:39:54.627] [background] [info] Syncing folder list...
+23653 [2020-04-30 03:39:55.400] [background] [info] Syncing folder list...
+23653 [2020-04-30 03:39:55.571] [background] [info] Sync loop deleting unlinked messages with phase 2.
+23653 [2020-04-30 03:39:55.572] [background] [info] Sync loop complete.
+23653 [2020-04-30 03:39:55.848] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1235953 to 1235953, uidnext 16173 to 16173
+23653 [2020-04-30 03:39:55.863] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+23653 [2020-04-30 03:40:05.305] [metadataExpiration] [info] Scanning for expired metadata
+23653 [2020-04-30 03:40:05.305] [metadataExpiration] [info] -- Will wake for next expiration in 7200sec
+23653 [2020-04-30 03:40:14.480] [calContacts] [info] Encountered exception: {"debuginfo":"https://apidata.googleusercontent.com/caldav/v2/gmtstephane@gmail.com RETURNED <?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<errors xmlns=\"http://schemas.google.com/g/2005\">\n <error>\n  <domain>usageLimits</domain>\n  <code>dailyLimitExceeded</code>\n  <internalReason>Daily Limit Exceeded. The quota will be reset at midnight Pacific Time (PT). You may monitor your quota usage and adjust limits in the API Console: https://console.developers.google.com/apis/api/caldav.googleapis.com/quotas?project=662287800555</internalReason>\n  <extendedHelp>https://console.developers.google.com/apis/api/caldav.googleapis.com/quotas?project=662287800555</extendedHelp>\n </error>\n</errors>\n","key":"Invalid Response Code: 403","retryable":false,"what":"std::exception"}
+23653 [2020-04-30 03:40:14.480] [calContacts] [info] Suspending sync for 4 hours - Google app API request quota hit.
+2096 [2020-04-30 14:03:39.184] [main] [info] Identity created at 1580037932 - using ID Schema 1
+2096 [2020-04-30 14:03:39.271] [main] [info] ------------- Starting Sync (gmtstephane@gmail.com) ---------------
+2096 [2020-04-30 14:03:39.280] [metadata] [info] Metadata delta stream starting...
+2096 [2020-04-30 14:03:43.276] [background] [info] Fetching XOAuth2 access token from Gmail for b3476e84
+2096 [2020-04-30 14:03:43.540] [background] [info] Marking all folders as `busy`
+2096 [2020-04-30 14:03:43.544] [background] [info] Syncing folder list...
+2096 [2020-04-30 14:03:44.423] [background] [info] Syncing folder list...
+2096 [2020-04-30 14:03:44.509] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 16173 - 16178, Heavy: true
+2096 [2020-04-30 14:03:44.713] [background] [info] - remote=2, local=0
+2096 [2020-04-30 14:03:44.906] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1235953 to 1236288, uidnext 16173 to 16178
+2096 [2020-04-30 14:03:44.939] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 15366 - 16178, Heavy: false
+2096 [2020-04-30 14:03:45.079] [foreground] [info] syncFolderChangesViaCondstore - Changes since HMODSEQ 1235953: 2 changed, 0 vanished
+2096 [2020-04-30 14:03:45.209] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+2096 [2020-04-30 14:03:45.228] [background] [info] - remote=402, local=402
+2096 [2020-04-30 14:03:45.249] [background] [info] Cleaning local cache and updating stats
+2096 [2020-04-30 14:03:45.259] [background] [info] -- 0 message bodies deleted from local cache.
+2096 [2020-04-30 14:03:45.501] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 8824 - 8826, Heavy: true
+2096 [2020-04-30 14:03:45.619] [background] [info] - remote=2, local=0
+2096 [2020-04-30 14:03:45.628] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 8826, Heavy: false
+2096 [2020-04-30 14:03:45.683] [background] [info] - remote=49, local=51
+2096 [2020-04-30 14:03:45.684] [background] [info] Unlinking messages  WHERE remoteFolderId = ? AND remoteUID IN (?,?) no longer present in remote range.
+2096 [2020-04-30 14:03:45.688] [background] [info] -- 2 matches.
+2096 [2020-04-30 14:03:45.688] [background] [info] -- Unlinking "Stéphane, you have a new suggested connection to review" (Tfw9d8VdUJTXnVEq1s4S2WC9xxPmRetFuFN616sYw)
+2096 [2020-04-30 14:03:45.691] [background] [info] -- Unlinking "NHL.com a partagé « Gardiner's young son Henry shows off slapper, wh..." (kkjVTKfM3ft4Tuin5n7ihG82LnShv9s9GogcGyKAi)
+2096 [2020-04-30 14:03:45.693] [background] [info] Cleaning local cache and updating stats
+2096 [2020-04-30 14:03:45.695] [background] [info] -- 0 message bodies deleted from local cache.
+2096 [2020-04-30 14:03:45.736] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 4795 - 4796, Heavy: true
+2096 [2020-04-30 14:03:45.830] [background] [info] - remote=1, local=0
+2096 [2020-04-30 14:03:45.835] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 4796, Heavy: false
+2096 [2020-04-30 14:03:45.896] [background] [info] - remote=75, local=77
+2096 [2020-04-30 14:03:45.897] [background] [info] Unlinking messages  WHERE remoteFolderId = ? AND remoteUID IN (?,?) no longer present in remote range.
+2096 [2020-04-30 14:03:45.899] [background] [info] -- 2 matches.
+2096 [2020-04-30 14:03:45.899] [background] [info] -- Unlinking "🏘Mobile Renting App UIs + 📆Calendar App Challenge" (qH3TUS3hN58WzAH9gbFiekqAYgRA4Gym6Jymao8Kb)
+2096 [2020-04-30 14:03:45.900] [background] [info] -- Unlinking "[LDLC] C'est bon (plan) pour le moral !" (2BDbNbn9zjtcU9ptegwa18RAeNwxaC1y9yT1cDdSi)
+2096 [2020-04-30 14:03:45.901] [background] [info] Cleaning local cache and updating stats
+2096 [2020-04-30 14:03:45.904] [background] [info] -- 0 message bodies deleted from local cache.
+2096 [2020-04-30 14:03:45.906] [background] [info] Sync loop deleting unlinked messages with phase 2.
+2096 [2020-04-30 14:03:45.907] [background] [info] Sync loop complete.
+2096 [2020-04-30 14:03:49.657] [main] [info] [local-4fc03ae5-76eb] Running ChangeUnreadTask performLocal:
+2096 [2020-04-30 14:03:49.665] [main] [info] [local-4fc03ae5-76eb] -- Succeeded. Changing status to `remote`
+2096 [2020-04-30 14:03:50.004] [foreground] [info] Idle exited with code 0
+2096 [2020-04-30 14:03:50.005] [foreground] [info] [local-4fc03ae5-76eb] Running ChangeUnreadTask performRemote:
+2096 [2020-04-30 14:03:50.251] [foreground] [info] [local-4fc03ae5-76eb] -- Succeeded. Changing status to `complete`
+2096 [2020-04-30 14:03:50.300] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1236288 to 1236319, uidnext 16178 to 16178
+2096 [2020-04-30 14:03:50.390] [foreground] [info] syncFolderChangesViaCondstore - Changes since HMODSEQ 1236288: 1 changed, 0 vanished
+2096 [2020-04-30 14:03:50.405] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+2096 [2020-04-30 14:03:52.441] [main] [info] [local-01dcb664-710a] Running ChangeUnreadTask performLocal:
+2096 [2020-04-30 14:03:52.447] [main] [info] [local-01dcb664-710a] -- Succeeded. Changing status to `remote`
+2096 [2020-04-30 14:03:52.796] [foreground] [info] Idle exited with code 0
+2096 [2020-04-30 14:03:52.798] [foreground] [info] [local-01dcb664-710a] Running ChangeUnreadTask performRemote:
+2096 [2020-04-30 14:03:53.021] [foreground] [info] [local-01dcb664-710a] -- Succeeded. Changing status to `complete`
+2096 [2020-04-30 14:03:53.071] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1236319 to 1236382, uidnext 16178 to 16178
+2096 [2020-04-30 14:03:53.179] [foreground] [info] syncFolderChangesViaCondstore - Changes since HMODSEQ 1236319: 1 changed, 0 vanished
+2096 [2020-04-30 14:03:53.189] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+2096 [2020-04-30 14:03:54.273] [metadataExpiration] [info] Scanning for expired metadata
+2096 [2020-04-30 14:03:54.274] [metadataExpiration] [info] -- Will wake for next expiration in 7200sec
+2096 [2020-04-30 14:03:54.280] [main] [info] [local-ff2cbebd-3cda] Running ChangeUnreadTask performLocal:
+2096 [2020-04-30 14:03:54.289] [main] [info] [local-ff2cbebd-3cda] -- Succeeded. Changing status to `remote`
+2096 [2020-04-30 14:03:54.640] [foreground] [info] Idle exited with code 0
+2096 [2020-04-30 14:03:54.642] [foreground] [info] [local-ff2cbebd-3cda] Running ChangeUnreadTask performRemote:
+2096 [2020-04-30 14:03:54.865] [foreground] [info] [local-ff2cbebd-3cda] -- Succeeded. Changing status to `complete`
+2096 [2020-04-30 14:03:54.913] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1236382 to 1236430, uidnext 16178 to 16178
+2096 [2020-04-30 14:03:54.972] [foreground] [info] syncFolderChangesViaCondstore - Changes since HMODSEQ 1236382: 1 changed, 0 vanished
+2096 [2020-04-30 14:03:54.985] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+2096 [2020-04-30 14:04:00.161] [main] [info] [local-7a86ffee-85cd] Running ChangeUnreadTask performLocal:
+2096 [2020-04-30 14:04:00.169] [main] [info] [local-7a86ffee-85cd] -- Succeeded. Changing status to `remote`
+2096 [2020-04-30 14:04:00.513] [foreground] [info] Idle exited with code 0
+2096 [2020-04-30 14:04:00.514] [foreground] [info] [local-7a86ffee-85cd] Running ChangeUnreadTask performRemote:
+2096 [2020-04-30 14:04:00.778] [foreground] [info] [local-7a86ffee-85cd] -- Succeeded. Changing status to `complete`
+2096 [2020-04-30 14:04:00.843] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1236430 to 1236483, uidnext 16178 to 16178
+2096 [2020-04-30 14:04:00.940] [foreground] [info] syncFolderChangesViaCondstore - Changes since HMODSEQ 1236430: 1 changed, 0 vanished
+2096 [2020-04-30 14:04:00.955] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+2096 [2020-04-30 14:04:01.133] [main] [info] [local-ca866649-c04d] Running ChangeUnreadTask performLocal:
+2096 [2020-04-30 14:04:01.139] [main] [info] [local-ca866649-c04d] -- Succeeded. Changing status to `remote`
+2096 [2020-04-30 14:04:01.490] [foreground] [info] Idle exited with code 0
+2096 [2020-04-30 14:04:01.491] [foreground] [info] [local-ca866649-c04d] Running ChangeUnreadTask performRemote:
+2096 [2020-04-30 14:04:01.746] [foreground] [info] [local-ca866649-c04d] -- Succeeded. Changing status to `complete`
+2096 [2020-04-30 14:04:01.797] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1236483 to 1236544, uidnext 16178 to 16178
+2096 [2020-04-30 14:04:01.857] [foreground] [info] syncFolderChangesViaCondstore - Changes since HMODSEQ 1236483: 1 changed, 0 vanished
+2096 [2020-04-30 14:04:01.874] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+2096 [2020-04-30 14:04:03.573] [calContacts] [info] apidata.googleusercontent.com/caldav/v2/gmtstephane%40gmail.com/events/
+2096 [2020-04-30 14:04:03.573] [calContacts] [info]   remote: 72 etags
+2096 [2020-04-30 14:04:03.573] [calContacts] [info]    local: 0 etags
+2096 [2020-04-30 14:04:03.573] [calContacts] [info]  deleted: 0
+2096 [2020-04-30 14:04:03.573] [calContacts] [info]   needed: 72
+2096 [2020-04-30 14:04:04.165] [main] [info] [local-949a7322-265c] Running ChangeUnreadTask performLocal:
+2096 [2020-04-30 14:04:04.172] [main] [info] [local-949a7322-265c] -- Succeeded. Changing status to `remote`
+2096 [2020-04-30 14:04:04.520] [foreground] [info] Idle exited with code 0
+2096 [2020-04-30 14:04:04.521] [foreground] [info] [local-949a7322-265c] Running ChangeUnreadTask performRemote:
+2096 [2020-04-30 14:04:04.720] [foreground] [info] [local-949a7322-265c] -- Succeeded. Changing status to `complete`
+2096 [2020-04-30 14:04:04.771] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1236544 to 1236602, uidnext 16178 to 16178
+2096 [2020-04-30 14:04:04.830] [foreground] [info] syncFolderChangesViaCondstore - Changes since HMODSEQ 1236544: 1 changed, 0 vanished
+2096 [2020-04-30 14:04:04.843] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+2096 [2020-04-30 14:04:06.846] [calContacts] [info] apidata.googleusercontent.com/caldav/v2/cpp2spjicln66q13d1nmoqb4c5sk0pridtqn0bjm5phm2r35dpi62shectnmuprcckn66rrd%40virtual/events/
+2096 [2020-04-30 14:04:06.846] [calContacts] [info]   remote: 2 etags
+2096 [2020-04-30 14:04:06.846] [calContacts] [info]    local: 0 etags
+2096 [2020-04-30 14:04:06.846] [calContacts] [info]  deleted: 0
+2096 [2020-04-30 14:04:06.846] [calContacts] [info]   needed: 2
+2096 [2020-04-30 14:04:08.337] [calContacts] [info] apidata.googleusercontent.com/caldav/v2/c5i68sj5edpm4rrfdchm6rreehgm6t3j81jn4rrle0n7cbj3c5m6arj4c5p2sprfdtjmop9ecdnmq%40virtual/events/
+2096 [2020-04-30 14:04:08.337] [calContacts] [info]   remote: 1 etags
+2096 [2020-04-30 14:04:08.337] [calContacts] [info]    local: 0 etags
+2096 [2020-04-30 14:04:08.337] [calContacts] [info]  deleted: 0
+2096 [2020-04-30 14:04:08.337] [calContacts] [info]   needed: 1
+2096 [2020-04-30 14:04:10.686] [main] [info] [local-adb23af7-e4f7] Running ChangeUnreadTask performLocal:
+2096 [2020-04-30 14:04:10.692] [main] [info] [local-adb23af7-e4f7] -- Succeeded. Changing status to `remote`
+2096 [2020-04-30 14:04:11.036] [foreground] [info] Idle exited with code 0
+2096 [2020-04-30 14:04:11.037] [foreground] [info] [local-adb23af7-e4f7] Running ChangeUnreadTask performRemote:
+2096 [2020-04-30 14:04:11.244] [foreground] [info] [local-adb23af7-e4f7] -- Succeeded. Changing status to `complete`
+2096 [2020-04-30 14:04:11.309] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1236602 to 1236665, uidnext 16178 to 16178
+2096 [2020-04-30 14:04:11.372] [foreground] [info] syncFolderChangesViaCondstore - Changes since HMODSEQ 1236602: 1 changed, 0 vanished
+2096 [2020-04-30 14:04:11.382] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+2096 [2020-04-30 14:05:45.907] [background] [info] Syncing folder list...
+2096 [2020-04-30 14:05:46.017] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 1 - 0, Heavy: false
+2096 [2020-04-30 14:05:46.875] [background] [info] - remote=2252, local=2252
+2096 [2020-04-30 14:05:46.943] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 0, Heavy: false
+2096 [2020-04-30 14:05:47.085] [background] [info] - remote=49, local=50
+2096 [2020-04-30 14:05:47.085] [background] [info] Unlinking messages  WHERE remoteFolderId = ? AND remoteUID IN (?) no longer present in remote range.
+2096 [2020-04-30 14:05:47.089] [background] [info] -- 2 matches.
+2096 [2020-04-30 14:05:47.129] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 0, Heavy: false
+2096 [2020-04-30 14:05:47.248] [background] [info] - remote=75, local=76
+2096 [2020-04-30 14:05:47.249] [background] [info] Unlinking messages  WHERE remoteFolderId = ? AND remoteUID IN (?) no longer present in remote range.
+2096 [2020-04-30 14:05:47.253] [background] [info] -- 2 matches.
+2096 [2020-04-30 14:05:47.254] [background] [info] Sync loop deleting unlinked messages with phase 1.
+2096 [2020-04-30 14:05:47.258] [background] [info] -- Removing 4 unlinked messages
+2096 [2020-04-30 14:05:47.258] [background] [info] -- Removing "🏘Mobile Renting App UIs + 📆Calendar App Challenge" (qH3TUS3hN58WzAH9gbFiekqAYgRA4Gym6Jymao8Kb)
+2096 [2020-04-30 14:05:47.261] [background] [info] -- Removing "[LDLC] C'est bon (plan) pour le moral !" (2BDbNbn9zjtcU9ptegwa18RAeNwxaC1y9yT1cDdSi)
+2096 [2020-04-30 14:05:47.264] [background] [info] -- Removing "Stéphane, you have a new suggested connection to review" (Tfw9d8VdUJTXnVEq1s4S2WC9xxPmRetFuFN616sYw)
+2096 [2020-04-30 14:05:47.266] [background] [info] -- Removing "NHL.com a partagé « Gardiner's young son Henry shows off slapper, wh..." (kkjVTKfM3ft4Tuin5n7ihG82LnShv9s9GogcGyKAi)
+2096 [2020-04-30 14:05:47.269] [background] [info] Sync loop complete.
+3569 [2020-04-30 14:06:10.505] [main] [info] Identity created at 1580037932 - using ID Schema 1
+3569 [2020-04-30 14:06:10.509] [main] [info] ------------- Starting Sync (gmtstephane@gmail.com) ---------------
+3569 [2020-04-30 14:06:10.516] [metadata] [info] Metadata delta stream starting...
+3569 [2020-04-30 14:06:14.518] [background] [info] Fetching XOAuth2 access token from Gmail for b3476e84
+3569 [2020-04-30 14:06:14.769] [background] [info] Marking all folders as `busy`
+3569 [2020-04-30 14:06:14.771] [background] [info] Syncing folder list...
+3569 [2020-04-30 14:06:15.196] [background] [info] Syncing folder list...
+3569 [2020-04-30 14:06:15.379] [background] [info] Sync loop deleting unlinked messages with phase 2.
+3569 [2020-04-30 14:06:15.381] [background] [info] Sync loop complete.
+3569 [2020-04-30 14:06:15.608] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1236665 to 1236696, uidnext 16178 to 16178
+3569 [2020-04-30 14:06:15.717] [foreground] [info] syncFolderChangesViaCondstore - Changes since HMODSEQ 1236665: 0 changed, 0 vanished
+3569 [2020-04-30 14:06:15.730] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+3569 [2020-04-30 14:06:25.513] [metadataExpiration] [info] Scanning for expired metadata
+3569 [2020-04-30 14:06:25.513] [metadataExpiration] [info] -- Will wake for next expiration in 7200sec
+3569 [2020-04-30 14:08:15.381] [background] [info] Syncing folder list...
+3569 [2020-04-30 14:08:15.483] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 15374 - 16178, Heavy: false
+3569 [2020-04-30 14:08:15.714] [background] [info] - remote=400, local=400
+3569 [2020-04-30 14:08:15.773] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 8826, Heavy: false
+3569 [2020-04-30 14:08:15.883] [background] [info] - remote=49, local=49
+3569 [2020-04-30 14:08:15.926] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 4796, Heavy: false
+3569 [2020-04-30 14:08:16.039] [background] [info] - remote=75, local=75
+3569 [2020-04-30 14:08:16.040] [background] [info] Sync loop deleting unlinked messages with phase 1.
+3569 [2020-04-30 14:08:16.042] [background] [info] Sync loop complete.
+3569 [2020-04-30 14:10:16.042] [background] [info] Syncing folder list...
+3569 [2020-04-30 14:10:16.125] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 15374 - 16178, Heavy: false
+3569 [2020-04-30 14:10:16.346] [background] [info] - remote=400, local=400
+3569 [2020-04-30 14:10:16.402] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 8826, Heavy: false
+3569 [2020-04-30 14:10:16.505] [background] [info] - remote=49, local=49
+3569 [2020-04-30 14:10:16.547] [background] [info] Sync loop deleting unlinked messages with phase 2.
+3569 [2020-04-30 14:10:16.550] [background] [info] Sync loop complete.
+3569 [2020-04-30 14:12:16.550] [background] [info] Syncing folder list...
+3569 [2020-04-30 14:12:16.727] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 4796, Heavy: false
+3569 [2020-04-30 14:12:16.841] [background] [info] - remote=75, local=75
+3569 [2020-04-30 14:12:16.842] [background] [info] Sync loop deleting unlinked messages with phase 1.
+3569 [2020-04-30 14:12:16.844] [background] [info] Sync loop complete.
+3569 [2020-04-30 14:14:16.844] [background] [info] Syncing folder list...
+3569 [2020-04-30 14:14:16.938] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 15374 - 16178, Heavy: false
+3569 [2020-04-30 14:14:17.145] [background] [info] - remote=400, local=400
+3569 [2020-04-30 14:14:17.194] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 8826, Heavy: false
+3569 [2020-04-30 14:14:17.293] [background] [info] - remote=49, local=49
+3569 [2020-04-30 14:14:17.336] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 4796, Heavy: false
+3569 [2020-04-30 14:14:17.446] [background] [info] - remote=75, local=75
+3569 [2020-04-30 14:14:17.448] [background] [info] Sync loop deleting unlinked messages with phase 2.
+3569 [2020-04-30 14:14:17.450] [background] [info] Sync loop complete.
+3569 [2020-04-30 14:16:17.450] [background] [info] Syncing folder list...
+3569 [2020-04-30 14:16:17.539] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 1 - 0, Heavy: false
+3569 [2020-04-30 14:16:18.314] [background] [info] - remote=2252, local=2252
+3569 [2020-04-30 14:16:18.379] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 0, Heavy: false
+3569 [2020-04-30 14:16:18.484] [background] [info] - remote=49, local=49
+3569 [2020-04-30 14:16:18.524] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 0, Heavy: false
+3569 [2020-04-30 14:16:18.630] [background] [info] - remote=75, local=75
+3569 [2020-04-30 14:16:18.631] [background] [info] Sync loop deleting unlinked messages with phase 1.
+3569 [2020-04-30 14:16:18.633] [background] [info] Sync loop complete.
+3569 [2020-04-30 14:18:18.633] [background] [info] Syncing folder list...
+3569 [2020-04-30 14:18:18.730] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 16178 - 16179, Heavy: true
+3569 [2020-04-30 14:18:18.832] [background] [info] - remote=0, local=0
+3569 [2020-04-30 14:18:18.882] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 8826 - 8827, Heavy: true
+3569 [2020-04-30 14:18:18.980] [background] [info] - remote=1, local=0
+3569 [2020-04-30 14:18:19.026] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 4796, Heavy: false
+3569 [2020-04-30 14:18:19.188] [background] [info] - remote=75, local=75
+3569 [2020-04-30 14:18:19.189] [background] [info] Sync loop deleting unlinked messages with phase 2.
+3569 [2020-04-30 14:18:19.192] [background] [info] Sync loop complete.
+3569 [2020-04-30 14:20:19.192] [background] [info] Syncing folder list...
+3569 [2020-04-30 14:20:19.282] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 16178 - 16179, Heavy: true
+3569 [2020-04-30 14:20:19.376] [background] [info] - remote=0, local=0
+3569 [2020-04-30 14:20:19.377] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 15374 - 16179, Heavy: false
+3569 [2020-04-30 14:20:19.571] [background] [info] - remote=400, local=400
+3569 [2020-04-30 14:20:19.621] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 8826 - 8827, Heavy: true
+3569 [2020-04-30 14:20:19.717] [background] [info] - remote=1, local=1
+3569 [2020-04-30 14:20:19.717] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 8827, Heavy: false
+3569 [2020-04-30 14:20:19.773] [background] [info] - remote=50, local=50
+3569 [2020-04-30 14:20:19.816] [background] [info] Sync loop deleting unlinked messages with phase 1.
+3569 [2020-04-30 14:20:19.818] [background] [info] Sync loop complete.
+3569 [2020-04-30 14:20:22.352] [metadata] [info] Metadata delta stream closed.
+3569 [2020-04-30 14:20:22.357] [metadata] [info] Metadata delta stream starting...
+3569 [2020-04-30 14:22:19.818] [background] [info] Syncing folder list...
+3569 [2020-04-30 14:22:19.993] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 4796, Heavy: false
+3569 [2020-04-30 14:22:20.103] [background] [info] - remote=75, local=75
+3569 [2020-04-30 14:22:20.104] [background] [info] Sync loop deleting unlinked messages with phase 2.
+3569 [2020-04-30 14:22:20.106] [background] [info] Sync loop complete.
+14291 [2020-04-30 14:22:28.651] [main] [info] Identity created at 1580037932 - using ID Schema 1
+14291 [2020-04-30 14:22:28.655] [main] [info] ------------- Starting Sync (gmtstephane@gmail.com) ---------------
+14291 [2020-04-30 14:22:28.668] [metadata] [info] Metadata delta stream starting...
+14291 [2020-04-30 14:22:32.665] [background] [info] Fetching XOAuth2 access token from Gmail for b3476e84
+14291 [2020-04-30 14:22:32.932] [background] [info] Marking all folders as `busy`
+14291 [2020-04-30 14:22:32.934] [background] [info] Syncing folder list...
+14291 [2020-04-30 14:22:33.394] [background] [info] Syncing folder list...
+14291 [2020-04-30 14:22:33.477] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 15374 - 16179, Heavy: false
+14291 [2020-04-30 14:22:33.702] [background] [info] - remote=400, local=400
+14291 [2020-04-30 14:22:33.756] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 8827, Heavy: false
+14291 [2020-04-30 14:22:33.814] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1236696 to 1236722, uidnext 16179 to 16179
+14291 [2020-04-30 14:22:33.856] [background] [info] - remote=50, local=50
+14291 [2020-04-30 14:22:33.897] [background] [info] Sync loop deleting unlinked messages with phase 2.
+14291 [2020-04-30 14:22:33.899] [background] [info] Sync loop complete.
+14291 [2020-04-30 14:22:33.923] [foreground] [info] syncFolderChangesViaCondstore - Changes since HMODSEQ 1236696: 0 changed, 0 vanished
+14291 [2020-04-30 14:22:33.934] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+14291 [2020-04-30 14:22:43.658] [metadataExpiration] [info] Scanning for expired metadata
+14291 [2020-04-30 14:22:43.658] [metadataExpiration] [info] -- Will wake for next expiration in 7200sec
+15923 [2020-04-30 14:24:31.362] [main] [info] Identity created at 1580037932 - using ID Schema 1
+15923 [2020-04-30 14:24:31.365] [main] [info] ------------- Starting Sync (gmtstephane@gmail.com) ---------------
+15923 [2020-04-30 14:24:31.374] [metadata] [info] Metadata delta stream starting...
+14291 [2020-04-30 14:24:33.900] [background] [info] Syncing folder list...
+14291 [2020-04-30 14:24:34.048] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 8827, Heavy: false
+14291 [2020-04-30 14:24:34.109] [background] [info] - remote=50, local=50
+14291 [2020-04-30 14:24:34.151] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 4796, Heavy: false
+14291 [2020-04-30 14:24:34.275] [background] [info] - remote=75, local=75
+14291 [2020-04-30 14:24:34.276] [background] [info] Sync loop deleting unlinked messages with phase 1.
+14291 [2020-04-30 14:24:34.278] [background] [info] Sync loop complete.
+15923 [2020-04-30 14:24:35.374] [background] [info] Fetching XOAuth2 access token from Gmail for b3476e84
+15923 [2020-04-30 14:24:35.613] [background] [info] Marking all folders as `busy`
+15923 [2020-04-30 14:24:35.614] [background] [info] Syncing folder list...
+15923 [2020-04-30 14:24:36.079] [background] [info] Syncing folder list...
+15923 [2020-04-30 14:24:36.172] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 15374 - 16179, Heavy: false
+15923 [2020-04-30 14:24:36.427] [background] [info] - remote=400, local=400
+15923 [2020-04-30 14:24:36.523] [background] [info] Sync loop deleting unlinked messages with phase 2.
+15923 [2020-04-30 14:24:36.525] [background] [info] Sync loop complete.
+15923 [2020-04-30 14:24:36.536] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1236722 to 1236722, uidnext 16179 to 16179
+15923 [2020-04-30 14:24:36.552] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+15923 [2020-04-30 14:24:46.369] [metadataExpiration] [info] Scanning for expired metadata
+15923 [2020-04-30 14:24:46.369] [metadataExpiration] [info] -- Will wake for next expiration in 7200sec
+16220 [2020-04-30 14:25:03.759] [main] [info] Identity created at 1580037932 - using ID Schema 1
+16220 [2020-04-30 14:25:03.761] [main] [info] ------------- Starting Sync (gmtstephane@gmail.com) ---------------
+16220 [2020-04-30 14:25:03.769] [metadata] [info] Metadata delta stream starting...
+16220 [2020-04-30 14:25:07.767] [background] [info] Fetching XOAuth2 access token from Gmail for b3476e84
+16220 [2020-04-30 14:25:07.989] [background] [info] Marking all folders as `busy`
+16220 [2020-04-30 14:25:07.990] [background] [info] Syncing folder list...
+16220 [2020-04-30 14:25:08.438] [background] [info] Syncing folder list...
+16220 [2020-04-30 14:25:08.631] [background] [info] Sync loop deleting unlinked messages with phase 2.
+16220 [2020-04-30 14:25:08.634] [background] [info] Sync loop complete.
+16220 [2020-04-30 14:25:08.885] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1236722 to 1236722, uidnext 16179 to 16179
+16220 [2020-04-30 14:25:08.900] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+16220 [2020-04-30 14:25:18.764] [metadataExpiration] [info] Scanning for expired metadata
+16220 [2020-04-30 14:25:18.765] [metadataExpiration] [info] -- Will wake for next expiration in 7200sec
+2223 [2020-04-30 14:27:56.042] [main] [info] Identity created at 1580037932 - using ID Schema 1
+2223 [2020-04-30 14:27:56.115] [main] [info] ------------- Starting Sync (gmtstephane@gmail.com) ---------------
+2223 [2020-04-30 14:27:56.125] [metadata] [info] Metadata delta stream starting...
+2223 [2020-04-30 14:28:00.122] [background] [info] Fetching XOAuth2 access token from Gmail for b3476e84
+2223 [2020-04-30 14:28:00.368] [background] [info] Marking all folders as `busy`
+2223 [2020-04-30 14:28:00.372] [background] [info] Syncing folder list...
+2223 [2020-04-30 14:28:00.948] [background] [info] Syncing folder list...
+2223 [2020-04-30 14:28:01.040] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 15374 - 16179, Heavy: false
+2223 [2020-04-30 14:28:01.455] [background] [info] - remote=400, local=400
+2223 [2020-04-30 14:28:01.610] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1236722 to 1236728, uidnext 16179 to 16179
+2223 [2020-04-30 14:28:01.624] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 8827, Heavy: false
+2223 [2020-04-30 14:28:01.724] [foreground] [info] syncFolderChangesViaCondstore - Changes since HMODSEQ 1236722: 0 changed, 0 vanished
+2223 [2020-04-30 14:28:01.732] [background] [info] - remote=50, local=50
+2223 [2020-04-30 14:28:01.736] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+2223 [2020-04-30 14:28:01.779] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 4796, Heavy: false
+2223 [2020-04-30 14:28:01.891] [background] [info] - remote=75, local=75
+2223 [2020-04-30 14:28:01.891] [background] [info] Sync loop deleting unlinked messages with phase 2.
+2223 [2020-04-30 14:28:01.893] [background] [info] Sync loop complete.
+2223 [2020-04-30 14:28:11.118] [metadataExpiration] [info] Scanning for expired metadata
+2223 [2020-04-30 14:28:11.119] [metadataExpiration] [info] -- Will wake for next expiration in 7200sec
+2305 [2020-04-30 14:28:15.349] [main] [info] Identity created at 1580037932 - using ID Schema 1
+2305 [2020-04-30 14:28:15.353] [main] [info] ------------- Starting Sync (gmtstephane@gmail.com) ---------------
+2305 [2020-04-30 14:28:15.362] [metadata] [info] Metadata delta stream starting...
+2305 [2020-04-30 14:28:19.363] [background] [info] Fetching XOAuth2 access token from Gmail for b3476e84
+2305 [2020-04-30 14:28:19.619] [background] [info] Marking all folders as `busy`
+2305 [2020-04-30 14:28:19.621] [background] [info] Syncing folder list...
+2305 [2020-04-30 14:28:20.093] [background] [info] Syncing folder list...
+2305 [2020-04-30 14:28:20.196] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 15374 - 16179, Heavy: false
+2305 [2020-04-30 14:28:20.491] [background] [info] - remote=400, local=400
+2305 [2020-04-30 14:28:20.604] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1236728 to 1236728, uidnext 16179 to 16179
+2305 [2020-04-30 14:28:20.605] [background] [info] Sync loop deleting unlinked messages with phase 2.
+2305 [2020-04-30 14:28:20.608] [background] [info] Sync loop complete.
+2305 [2020-04-30 14:28:20.616] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+2305 [2020-04-30 14:28:30.356] [metadataExpiration] [info] Scanning for expired metadata
+2305 [2020-04-30 14:28:30.356] [metadataExpiration] [info] -- Will wake for next expiration in 7200sec
+3150 [2020-04-30 14:29:22.059] [main] [info] Identity created at 1580037932 - using ID Schema 1
+3150 [2020-04-30 14:29:22.062] [main] [info] ------------- Starting Sync (gmtstephane@gmail.com) ---------------
+3150 [2020-04-30 14:29:22.068] [metadata] [info] Metadata delta stream starting...
+3150 [2020-04-30 14:29:26.068] [background] [info] Fetching XOAuth2 access token from Gmail for b3476e84
+3150 [2020-04-30 14:29:26.295] [background] [info] Marking all folders as `busy`
+3150 [2020-04-30 14:29:26.297] [background] [info] Syncing folder list...
+3150 [2020-04-30 14:29:26.737] [background] [info] Syncing folder list...
+3150 [2020-04-30 14:29:26.934] [background] [info] Sync loop deleting unlinked messages with phase 2.
+3150 [2020-04-30 14:29:26.937] [background] [info] Sync loop complete.
+3150 [2020-04-30 14:29:27.189] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1236728 to 1236728, uidnext 16179 to 16179
+3150 [2020-04-30 14:29:27.201] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+3150 [2020-04-30 14:29:37.065] [metadataExpiration] [info] Scanning for expired metadata
+3150 [2020-04-30 14:29:37.066] [metadataExpiration] [info] -- Will wake for next expiration in 7200sec
+3231 [2020-04-30 14:30:06.819] [main] [info] Identity created at 1580037932 - using ID Schema 1
+3231 [2020-04-30 14:30:06.821] [main] [info] ------------- Starting Sync (gmtstephane@gmail.com) ---------------
+3231 [2020-04-30 14:30:06.832] [metadata] [info] Metadata delta stream starting...
+3231 [2020-04-30 14:30:10.830] [background] [info] Fetching XOAuth2 access token from Gmail for b3476e84
+3231 [2020-04-30 14:30:11.076] [background] [info] Marking all folders as `busy`
+3231 [2020-04-30 14:30:11.078] [background] [info] Syncing folder list...
+3231 [2020-04-30 14:30:11.517] [background] [info] Syncing folder list...
+3231 [2020-04-30 14:30:11.666] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 8827, Heavy: false
+3231 [2020-04-30 14:30:11.779] [background] [info] - remote=50, local=50
+3231 [2020-04-30 14:30:11.819] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 4796, Heavy: false
+3231 [2020-04-30 14:30:11.923] [background] [info] - remote=75, local=75
+3231 [2020-04-30 14:30:11.924] [background] [info] Sync loop deleting unlinked messages with phase 2.
+3231 [2020-04-30 14:30:11.926] [background] [info] Sync loop complete.
+3231 [2020-04-30 14:30:11.970] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1236728 to 1236728, uidnext 16179 to 16179
+3231 [2020-04-30 14:30:11.986] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+3231 [2020-04-30 14:30:12.865] [main] [info] [local-0c8d5443-6ae6] Running SyncbackDraftTask performLocal:
+3231 [2020-04-30 14:30:12.871] [main] [info] [local-0c8d5443-6ae6] -- Succeeded. Changing status to `remote`
+3231 [2020-04-30 14:30:13.211] [foreground] [info] Idle exited with code 0
+3231 [2020-04-30 14:30:13.212] [foreground] [info] [local-0c8d5443-6ae6] Running SyncbackDraftTask performRemote:
+3231 [2020-04-30 14:30:13.212] [foreground] [info] [local-0c8d5443-6ae6] -- Succeeded. Changing status to `complete`
+3231 [2020-04-30 14:30:13.253] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1236728 to 1236728, uidnext 16179 to 16179
+3231 [2020-04-30 14:30:13.264] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+3231 [2020-04-30 14:30:21.825] [metadataExpiration] [info] Scanning for expired metadata
+3231 [2020-04-30 14:30:21.826] [metadataExpiration] [info] -- Will wake for next expiration in 7200sec
+3231 [2020-04-30 14:30:23.372] [main] [info] [local-567e3794-f024] Running DestroyDraftTask performLocal:
+3231 [2020-04-30 14:30:23.373] [main] [info] -- Hiding / detatching drafts while they're deleted...
+3231 [2020-04-30 14:30:23.376] [main] [info] -- Replacing local ID BrGHpqkRFeAfCBxSUkCLEg5U24X9tYbr1k98Wgdvg with deleted-LKvcRJUvKOCJGRyQGn6ZynMIOVqG9TzItUI9rsu3
+3231 [2020-04-30 14:30:23.377] [main] [info] [local-567e3794-f024] -- Succeeded. Changing status to `remote`
+3231 [2020-04-30 14:30:23.720] [foreground] [info] Idle exited with code 0
+3231 [2020-04-30 14:30:23.721] [foreground] [info] [local-567e3794-f024] Running DestroyDraftTask performRemote:
+3231 [2020-04-30 14:30:23.722] [foreground] [info] [local-567e3794-f024] -- Succeeded. Changing status to `complete`
+3231 [2020-04-30 14:30:23.767] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1236728 to 1236728, uidnext 16179 to 16179
+3231 [2020-04-30 14:30:23.776] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+3376 [2020-04-30 14:30:27.657] [main] [info] Identity created at 1580037932 - using ID Schema 1
+3376 [2020-04-30 14:30:27.659] [main] [info] ------------- Starting Sync (gmtstephane@gmail.com) ---------------
+3376 [2020-04-30 14:30:27.670] [metadata] [info] Metadata delta stream starting...
+3376 [2020-04-30 14:30:31.666] [background] [info] Fetching XOAuth2 access token from Gmail for b3476e84
+3376 [2020-04-30 14:30:31.872] [background] [info] Marking all folders as `busy`
+3376 [2020-04-30 14:30:31.874] [background] [info] Syncing folder list...
+3376 [2020-04-30 14:30:32.303] [background] [info] Syncing folder list...
+3376 [2020-04-30 14:30:32.385] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 15374 - 16179, Heavy: false
+3376 [2020-04-30 14:30:32.597] [background] [info] - remote=400, local=400
+3376 [2020-04-30 14:30:32.689] [background] [info] Sync loop deleting unlinked messages with phase 2.
+3376 [2020-04-30 14:30:32.691] [background] [info] Sync loop complete.
+3376 [2020-04-30 14:30:32.725] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1236728 to 1236728, uidnext 16179 to 16179
+3376 [2020-04-30 14:30:32.742] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+3652 [2020-04-30 14:30:36.988] [main] [info] Identity created at 1580037932 - using ID Schema 1
+3652 [2020-04-30 14:30:36.992] [main] [info] ------------- Starting Sync (gmtstephane@gmail.com) ---------------
+3652 [2020-04-30 14:30:37.002] [metadata] [info] Metadata delta stream starting...
+3652 [2020-04-30 14:30:41.002] [background] [info] Fetching XOAuth2 access token from Gmail for b3476e84
+3652 [2020-04-30 14:30:41.209] [background] [info] Marking all folders as `busy`
+3652 [2020-04-30 14:30:41.210] [background] [info] Syncing folder list...
+3652 [2020-04-30 14:30:41.635] [background] [info] Syncing folder list...
+3652 [2020-04-30 14:30:41.824] [background] [info] Sync loop deleting unlinked messages with phase 2.
+3652 [2020-04-30 14:30:41.826] [background] [info] Sync loop complete.
+3652 [2020-04-30 14:30:42.052] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1236728 to 1236728, uidnext 16179 to 16179
+3652 [2020-04-30 14:30:42.070] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+3376 [2020-04-30 14:30:42.664] [metadataExpiration] [info] Scanning for expired metadata
+3376 [2020-04-30 14:30:42.664] [metadataExpiration] [info] -- Will wake for next expiration in 7200sec
+3652 [2020-04-30 14:30:51.996] [metadataExpiration] [info] Scanning for expired metadata
+3652 [2020-04-30 14:30:51.996] [metadataExpiration] [info] -- Will wake for next expiration in 7200sec
+3929 [2020-04-30 14:30:54.008] [main] [info] Identity created at 1580037932 - using ID Schema 1
+3929 [2020-04-30 14:30:54.011] [main] [info] ------------- Starting Sync (gmtstephane@gmail.com) ---------------
+3929 [2020-04-30 14:30:54.020] [metadata] [info] Metadata delta stream starting...
+3929 [2020-04-30 14:30:58.020] [background] [info] Fetching XOAuth2 access token from Gmail for b3476e84
+3929 [2020-04-30 14:30:58.229] [background] [info] Marking all folders as `busy`
+3929 [2020-04-30 14:30:58.230] [background] [info] Syncing folder list...
+3929 [2020-04-30 14:30:58.750] [background] [info] Syncing folder list...
+3929 [2020-04-30 14:30:58.942] [background] [info] Sync loop deleting unlinked messages with phase 2.
+3929 [2020-04-30 14:30:58.944] [background] [info] Sync loop complete.
+3929 [2020-04-30 14:30:59.172] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1236728 to 1236728, uidnext 16179 to 16179
+3929 [2020-04-30 14:30:59.188] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+3929 [2020-04-30 14:31:09.014] [metadataExpiration] [info] Scanning for expired metadata
+3929 [2020-04-30 14:31:09.015] [metadataExpiration] [info] -- Will wake for next expiration in 7200sec
+4442 [2020-04-30 14:31:24.147] [main] [info] Identity created at 1580037932 - using ID Schema 1
+4442 [2020-04-30 14:31:24.151] [main] [info] ------------- Starting Sync (gmtstephane@gmail.com) ---------------
+4442 [2020-04-30 14:31:24.160] [metadata] [info] Metadata delta stream starting...
+4442 [2020-04-30 14:31:28.161] [background] [info] Fetching XOAuth2 access token from Gmail for b3476e84
+4442 [2020-04-30 14:31:28.369] [background] [info] Marking all folders as `busy`
+4442 [2020-04-30 14:31:28.370] [background] [info] Syncing folder list...
+4442 [2020-04-30 14:31:28.842] [background] [info] Syncing folder list...
+4442 [2020-04-30 14:31:29.024] [background] [info] Sync loop deleting unlinked messages with phase 2.
+4442 [2020-04-30 14:31:29.026] [background] [info] Sync loop complete.
+4442 [2020-04-30 14:31:29.279] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1236728 to 1236728, uidnext 16179 to 16179
+4442 [2020-04-30 14:31:29.292] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+4442 [2020-04-30 14:31:39.154] [metadataExpiration] [info] Scanning for expired metadata
+4442 [2020-04-30 14:31:39.154] [metadataExpiration] [info] -- Will wake for next expiration in 7200sec
+5438 [2020-04-30 14:32:53.141] [main] [info] Identity created at 1580037932 - using ID Schema 1
+5438 [2020-04-30 14:32:53.145] [main] [info] ------------- Starting Sync (gmtstephane@gmail.com) ---------------
+5438 [2020-04-30 14:32:53.153] [metadata] [info] Metadata delta stream starting...
+5438 [2020-04-30 14:32:57.152] [background] [info] Fetching XOAuth2 access token from Gmail for b3476e84
+5438 [2020-04-30 14:32:57.381] [background] [info] Marking all folders as `busy`
+5438 [2020-04-30 14:32:57.383] [background] [info] Syncing folder list...
+5438 [2020-04-30 14:32:57.818] [background] [info] Syncing folder list...
+5438 [2020-04-30 14:32:57.900] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 15374 - 16179, Heavy: false
+5438 [2020-04-30 14:32:58.123] [background] [info] - remote=400, local=400
+5438 [2020-04-30 14:32:58.181] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 8827, Heavy: false
+5438 [2020-04-30 14:32:58.246] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1236728 to 1236728, uidnext 16179 to 16179
+5438 [2020-04-30 14:32:58.262] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+5438 [2020-04-30 14:32:58.280] [background] [info] - remote=50, local=50
+5438 [2020-04-30 14:32:58.323] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 4796, Heavy: false
+5438 [2020-04-30 14:32:58.428] [background] [info] - remote=75, local=75
+5438 [2020-04-30 14:32:58.430] [background] [info] Sync loop deleting unlinked messages with phase 2.
+5438 [2020-04-30 14:32:58.433] [background] [info] Sync loop complete.
+5438 [2020-04-30 14:33:08.148] [metadataExpiration] [info] Scanning for expired metadata
+5438 [2020-04-30 14:33:08.148] [metadataExpiration] [info] -- Will wake for next expiration in 7200sec
+5719 [2020-04-30 14:33:21.014] [main] [info] Identity created at 1580037932 - using ID Schema 1
+5719 [2020-04-30 14:33:21.017] [main] [info] ------------- Starting Sync (gmtstephane@gmail.com) ---------------
+5719 [2020-04-30 14:33:21.030] [metadata] [info] Metadata delta stream starting...
+5719 [2020-04-30 14:33:25.028] [background] [info] Fetching XOAuth2 access token from Gmail for b3476e84
+5719 [2020-04-30 14:33:25.244] [background] [info] Marking all folders as `busy`
+5719 [2020-04-30 14:33:25.246] [background] [info] Syncing folder list...
+5719 [2020-04-30 14:33:25.684] [background] [info] Syncing folder list...
+5719 [2020-04-30 14:33:25.888] [background] [info] Sync loop deleting unlinked messages with phase 2.
+5719 [2020-04-30 14:33:25.891] [background] [info] Sync loop complete.
+5719 [2020-04-30 14:33:26.130] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1236728 to 1236728, uidnext 16179 to 16179
+5719 [2020-04-30 14:33:26.146] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+5719 [2020-04-30 14:33:36.020] [metadataExpiration] [info] Scanning for expired metadata
+5719 [2020-04-30 14:33:36.021] [metadataExpiration] [info] -- Will wake for next expiration in 7200sec
+6018 [2020-04-30 14:34:15.985] [main] [info] Identity created at 1580037932 - using ID Schema 1
+6018 [2020-04-30 14:34:15.989] [main] [info] ------------- Starting Sync (gmtstephane@gmail.com) ---------------
+6018 [2020-04-30 14:34:15.998] [metadata] [info] Metadata delta stream starting...
+6018 [2020-04-30 14:34:19.998] [background] [info] Fetching XOAuth2 access token from Gmail for b3476e84
+6018 [2020-04-30 14:34:20.224] [background] [info] Marking all folders as `busy`
+6018 [2020-04-30 14:34:20.225] [background] [info] Syncing folder list...
+6018 [2020-04-30 14:34:20.676] [background] [info] Syncing folder list...
+6018 [2020-04-30 14:34:20.858] [background] [info] Sync loop deleting unlinked messages with phase 2.
+6018 [2020-04-30 14:34:20.859] [background] [info] Sync loop complete.
+6018 [2020-04-30 14:34:21.115] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1236728 to 1236728, uidnext 16179 to 16179
+6018 [2020-04-30 14:34:21.132] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+6018 [2020-04-30 14:34:30.993] [metadataExpiration] [info] Scanning for expired metadata
+6018 [2020-04-30 14:34:30.994] [metadataExpiration] [info] -- Will wake for next expiration in 7200sec
+6018 [2020-04-30 14:36:20.859] [background] [info] Syncing folder list...
+6018 [2020-04-30 14:36:20.949] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 1 - 0, Heavy: false
+6018 [2020-04-30 14:36:21.727] [background] [info] - remote=2252, local=2252
+6018 [2020-04-30 14:36:21.793] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 0, Heavy: false
+6018 [2020-04-30 14:36:21.891] [background] [info] - remote=50, local=50
+6018 [2020-04-30 14:36:21.931] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 0, Heavy: false
+6018 [2020-04-30 14:36:22.039] [background] [info] - remote=75, local=75
+6018 [2020-04-30 14:36:22.040] [background] [info] Sync loop deleting unlinked messages with phase 1.
+6018 [2020-04-30 14:36:22.042] [background] [info] Sync loop complete.
+6018 [2020-04-30 14:36:26.323] [foreground] [info] Idle exited with code 0
+6018 [2020-04-30 14:36:26.385] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1236728 to 1236806, uidnext 16179 to 16180
+6018 [2020-04-30 14:36:26.500] [foreground] [info] syncFolderChangesViaCondstore - Changes since HMODSEQ 1236728: 1 changed, 0 vanished
+6018 [2020-04-30 14:36:26.625] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+6899 [2020-04-30 14:36:43.553] [main] [info] Identity created at 1580037932 - using ID Schema 1
+6899 [2020-04-30 14:36:43.556] [main] [info] ------------- Starting Sync (gmtstephane@gmail.com) ---------------
+6899 [2020-04-30 14:36:43.565] [metadata] [info] Metadata delta stream starting...
+6899 [2020-04-30 14:36:47.560] [background] [info] Fetching XOAuth2 access token from Gmail for b3476e84
+6899 [2020-04-30 14:36:47.797] [background] [info] Marking all folders as `busy`
+6899 [2020-04-30 14:36:47.798] [background] [info] Syncing folder list...
+6899 [2020-04-30 14:36:48.264] [background] [info] Syncing folder list...
+6899 [2020-04-30 14:36:48.469] [background] [info] Sync loop deleting unlinked messages with phase 2.
+6899 [2020-04-30 14:36:48.472] [background] [info] Sync loop complete.
+6899 [2020-04-30 14:36:48.690] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1236806 to 1236806, uidnext 16180 to 16180
+6899 [2020-04-30 14:36:48.708] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+6899 [2020-04-30 14:36:58.559] [metadataExpiration] [info] Scanning for expired metadata
+6899 [2020-04-30 14:36:58.560] [metadataExpiration] [info] -- Will wake for next expiration in 7200sec
+6899 [2020-04-30 14:37:47.620] [main] [info] [local-b795a024-6108] Running ChangeUnreadTask performLocal:
+6899 [2020-04-30 14:37:47.632] [main] [info] [local-b795a024-6108] -- Succeeded. Changing status to `remote`
+6899 [2020-04-30 14:37:47.970] [foreground] [info] Idle exited with code 0
+6899 [2020-04-30 14:37:47.971] [foreground] [info] [local-b795a024-6108] Running ChangeUnreadTask performRemote:
+6899 [2020-04-30 14:37:48.219] [foreground] [info] [local-b795a024-6108] -- Succeeded. Changing status to `complete`
+6899 [2020-04-30 14:37:48.270] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1236806 to 1236850, uidnext 16180 to 16180
+6899 [2020-04-30 14:37:48.335] [foreground] [info] syncFolderChangesViaCondstore - Changes since HMODSEQ 1236806: 1 changed, 0 vanished
+6899 [2020-04-30 14:37:48.349] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+6899 [2020-04-30 14:38:48.472] [background] [info] Syncing folder list...
+6899 [2020-04-30 14:38:48.564] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 15376 - 16180, Heavy: false
+6899 [2020-04-30 14:38:48.791] [background] [info] - remote=400, local=400
+6899 [2020-04-30 14:38:48.845] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 8827, Heavy: false
+6899 [2020-04-30 14:38:48.944] [background] [info] - remote=50, local=50
+6899 [2020-04-30 14:38:48.985] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 4796, Heavy: false
+6899 [2020-04-30 14:38:49.095] [background] [info] - remote=75, local=75
+6899 [2020-04-30 14:38:49.096] [background] [info] Sync loop deleting unlinked messages with phase 1.
+6899 [2020-04-30 14:38:49.098] [background] [info] Sync loop complete.
+6899 [2020-04-30 14:40:49.099] [background] [info] Syncing folder list...
+6899 [2020-04-30 14:40:49.180] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 15376 - 16180, Heavy: false
+6899 [2020-04-30 14:40:49.390] [background] [info] - remote=400, local=400
+6899 [2020-04-30 14:40:49.443] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 8827, Heavy: false
+6899 [2020-04-30 14:40:49.543] [background] [info] - remote=50, local=50
+6899 [2020-04-30 14:40:49.583] [background] [info] Sync loop deleting unlinked messages with phase 2.
+6899 [2020-04-30 14:40:49.586] [background] [info] Sync loop complete.
+10965 [2020-04-30 14:40:57.030] [main] [info] Identity created at 1580037932 - using ID Schema 1
+10965 [2020-04-30 14:40:57.032] [main] [info] ------------- Starting Sync (gmtstephane@gmail.com) ---------------
+10965 [2020-04-30 14:40:57.043] [metadata] [info] Metadata delta stream starting...
+10965 [2020-04-30 14:41:01.039] [background] [info] Fetching XOAuth2 access token from Gmail for b3476e84
+10965 [2020-04-30 14:41:01.284] [background] [info] Marking all folders as `busy`
+10965 [2020-04-30 14:41:01.286] [background] [info] Syncing folder list...
+10965 [2020-04-30 14:41:01.755] [background] [info] Syncing folder list...
+10965 [2020-04-30 14:41:01.940] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 4796, Heavy: false
+10965 [2020-04-30 14:41:02.050] [background] [info] - remote=75, local=75
+10965 [2020-04-30 14:41:02.052] [background] [info] Sync loop deleting unlinked messages with phase 2.
+10965 [2020-04-30 14:41:02.054] [background] [info] Sync loop complete.
+10965 [2020-04-30 14:41:02.167] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1236850 to 1236883, uidnext 16180 to 16180
+10965 [2020-04-30 14:41:02.279] [foreground] [info] syncFolderChangesViaCondstore - Changes since HMODSEQ 1236850: 0 changed, 0 vanished
+10965 [2020-04-30 14:41:02.294] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+10965 [2020-04-30 14:41:12.036] [metadataExpiration] [info] Scanning for expired metadata
+10965 [2020-04-30 14:41:12.036] [metadataExpiration] [info] -- Will wake for next expiration in 7200sec
+11252 [2020-04-30 14:41:17.357] [main] [info] Identity created at 1580037932 - using ID Schema 1
+11252 [2020-04-30 14:41:17.359] [main] [info] ------------- Starting Sync (gmtstephane@gmail.com) ---------------
+11252 [2020-04-30 14:41:17.366] [metadata] [info] Metadata delta stream starting...
+11252 [2020-04-30 14:41:21.365] [background] [info] Fetching XOAuth2 access token from Gmail for b3476e84
+11252 [2020-04-30 14:41:21.567] [background] [info] Marking all folders as `busy`
+11252 [2020-04-30 14:41:21.568] [background] [info] Syncing folder list...
+11252 [2020-04-30 14:41:21.975] [background] [info] Syncing folder list...
+11252 [2020-04-30 14:41:22.170] [background] [info] Sync loop deleting unlinked messages with phase 2.
+11252 [2020-04-30 14:41:22.173] [background] [info] Sync loop complete.
+11252 [2020-04-30 14:41:22.399] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1236883 to 1236883, uidnext 16180 to 16180
+11252 [2020-04-30 14:41:22.415] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+11252 [2020-04-30 14:41:32.362] [metadataExpiration] [info] Scanning for expired metadata
+11252 [2020-04-30 14:41:32.362] [metadataExpiration] [info] -- Will wake for next expiration in 7200sec
+11563 [2020-04-30 14:42:01.345] [main] [info] Identity created at 1580037932 - using ID Schema 1
+11563 [2020-04-30 14:42:01.348] [main] [info] ------------- Starting Sync (gmtstephane@gmail.com) ---------------
+11563 [2020-04-30 14:42:01.357] [metadata] [info] Metadata delta stream starting...
+11563 [2020-04-30 14:42:05.355] [background] [info] Fetching XOAuth2 access token from Gmail for b3476e84
+11563 [2020-04-30 14:42:05.581] [background] [info] Marking all folders as `busy`
+11563 [2020-04-30 14:42:05.582] [background] [info] Syncing folder list...
+11563 [2020-04-30 14:42:06.040] [background] [info] Syncing folder list...
+11563 [2020-04-30 14:42:06.229] [background] [info] Sync loop deleting unlinked messages with phase 2.
+11563 [2020-04-30 14:42:06.232] [background] [info] Sync loop complete.
+11563 [2020-04-30 14:42:06.458] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1236883 to 1236883, uidnext 16180 to 16180
+11563 [2020-04-30 14:42:06.468] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+11563 [2020-04-30 14:42:16.352] [metadataExpiration] [info] Scanning for expired metadata
+11563 [2020-04-30 14:42:16.352] [metadataExpiration] [info] -- Will wake for next expiration in 7200sec
+11849 [2020-04-30 14:42:16.771] [main] [info] Identity created at 1580037932 - using ID Schema 1
+11849 [2020-04-30 14:42:16.774] [main] [info] ------------- Starting Sync (gmtstephane@gmail.com) ---------------
+11849 [2020-04-30 14:42:16.783] [metadata] [info] Metadata delta stream starting...
+11849 [2020-04-30 14:42:20.781] [background] [info] Fetching XOAuth2 access token from Gmail for b3476e84
+11849 [2020-04-30 14:42:21.043] [background] [info] Marking all folders as `busy`
+11849 [2020-04-30 14:42:21.044] [background] [info] Syncing folder list...
+11849 [2020-04-30 14:42:21.459] [background] [info] Syncing folder list...
+11849 [2020-04-30 14:42:21.634] [background] [info] Sync loop deleting unlinked messages with phase 2.
+11849 [2020-04-30 14:42:21.636] [background] [info] Sync loop complete.
+11849 [2020-04-30 14:42:21.876] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1236883 to 1236883, uidnext 16180 to 16180
+11849 [2020-04-30 14:42:21.890] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+12140 [2020-04-30 14:42:29.289] [main] [info] Identity created at 1580037932 - using ID Schema 1
+12140 [2020-04-30 14:42:29.291] [main] [info] ------------- Starting Sync (gmtstephane@gmail.com) ---------------
+12140 [2020-04-30 14:42:29.304] [metadata] [info] Metadata delta stream starting...
+11849 [2020-04-30 14:42:31.776] [metadataExpiration] [info] Scanning for expired metadata
+11849 [2020-04-30 14:42:31.777] [metadataExpiration] [info] -- Will wake for next expiration in 7200sec
+12140 [2020-04-30 14:42:33.303] [background] [info] Fetching XOAuth2 access token from Gmail for b3476e84
+12140 [2020-04-30 14:42:33.523] [background] [info] Marking all folders as `busy`
+12140 [2020-04-30 14:42:33.525] [background] [info] Syncing folder list...
+12140 [2020-04-30 14:42:33.937] [background] [info] Syncing folder list...
+12140 [2020-04-30 14:42:34.121] [background] [info] Sync loop deleting unlinked messages with phase 2.
+12140 [2020-04-30 14:42:34.123] [background] [info] Sync loop complete.
+12140 [2020-04-30 14:42:34.361] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1236883 to 1236883, uidnext 16180 to 16180
+12140 [2020-04-30 14:42:34.378] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+12140 [2020-04-30 14:42:44.297] [metadataExpiration] [info] Scanning for expired metadata
+12140 [2020-04-30 14:42:44.297] [metadataExpiration] [info] -- Will wake for next expiration in 7200sec
+12140 [2020-04-30 14:44:34.124] [background] [info] Syncing folder list...
+12140 [2020-04-30 14:44:34.238] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 15376 - 16180, Heavy: false
+12140 [2020-04-30 14:44:34.461] [background] [info] - remote=400, local=400
+12140 [2020-04-30 14:44:34.516] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 8827, Heavy: false
+12140 [2020-04-30 14:44:34.621] [background] [info] - remote=50, local=50
+12140 [2020-04-30 14:44:34.660] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 4796, Heavy: false
+12140 [2020-04-30 14:44:34.763] [background] [info] - remote=75, local=75
+12140 [2020-04-30 14:44:34.764] [background] [info] Sync loop deleting unlinked messages with phase 1.
+12140 [2020-04-30 14:44:34.767] [background] [info] Sync loop complete.
+12972 [2020-04-30 14:45:45.356] [main] [info] Identity created at 1580037932 - using ID Schema 1
+12972 [2020-04-30 14:45:45.361] [main] [info] ------------- Starting Sync (gmtstephane@gmail.com) ---------------
+12972 [2020-04-30 14:45:45.373] [metadata] [info] Metadata delta stream starting...
+12972 [2020-04-30 14:45:49.371] [background] [info] Fetching XOAuth2 access token from Gmail for b3476e84
+12972 [2020-04-30 14:45:49.608] [background] [info] Marking all folders as `busy`
+12972 [2020-04-30 14:45:49.609] [background] [info] Syncing folder list...
+12972 [2020-04-30 14:45:50.061] [background] [info] Syncing folder list...
+12972 [2020-04-30 14:45:50.247] [background] [info] Sync loop deleting unlinked messages with phase 2.
+12972 [2020-04-30 14:45:50.250] [background] [info] Sync loop complete.
+12972 [2020-04-30 14:45:50.499] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1236883 to 1236883, uidnext 16180 to 16180
+12972 [2020-04-30 14:45:50.514] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+12972 [2020-04-30 14:46:00.364] [metadataExpiration] [info] Scanning for expired metadata
+12972 [2020-04-30 14:46:00.364] [metadataExpiration] [info] -- Will wake for next expiration in 7200sec
+12972 [2020-04-30 14:47:50.250] [background] [info] Syncing folder list...
+12972 [2020-04-30 14:47:50.335] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 1 - 0, Heavy: false
+12972 [2020-04-30 14:47:51.110] [background] [info] - remote=2253, local=2253
+12972 [2020-04-30 14:47:51.178] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 0, Heavy: false
+12972 [2020-04-30 14:47:51.278] [background] [info] - remote=50, local=50
+12972 [2020-04-30 14:47:51.319] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 0, Heavy: false
+12972 [2020-04-30 14:47:51.427] [background] [info] - remote=75, local=75
+12972 [2020-04-30 14:47:51.428] [background] [info] Sync loop deleting unlinked messages with phase 1.
+12972 [2020-04-30 14:47:51.429] [background] [info] Sync loop complete.
+12972 [2020-04-30 14:49:51.429] [background] [info] Syncing folder list...
+12972 [2020-04-30 14:49:51.622] [background] [info] Sync loop deleting unlinked messages with phase 2.
+12972 [2020-04-30 14:49:51.624] [background] [info] Sync loop complete.
+14473 [2020-04-30 14:50:42.615] [main] [info] Identity created at 1580037932 - using ID Schema 1
+14473 [2020-04-30 14:50:42.619] [main] [info] ------------- Starting Sync (gmtstephane@gmail.com) ---------------
+14473 [2020-04-30 14:50:42.628] [metadata] [info] Metadata delta stream starting...
+14473 [2020-04-30 14:50:46.630] [background] [info] Fetching XOAuth2 access token from Gmail for b3476e84
+14473 [2020-04-30 14:50:46.863] [background] [info] Marking all folders as `busy`
+14473 [2020-04-30 14:50:46.864] [background] [info] Syncing folder list...
+14473 [2020-04-30 14:50:47.310] [background] [info] Syncing folder list...
+14473 [2020-04-30 14:50:47.391] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 15376 - 16180, Heavy: false
+14473 [2020-04-30 14:50:47.634] [background] [info] - remote=400, local=400
+14473 [2020-04-30 14:50:47.683] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 8827, Heavy: false
+14473 [2020-04-30 14:50:47.749] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1236883 to 1236883, uidnext 16180 to 16180
+14473 [2020-04-30 14:50:47.764] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+14473 [2020-04-30 14:50:47.834] [background] [info] - remote=50, local=50
+14473 [2020-04-30 14:50:47.875] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 4796, Heavy: false
+14473 [2020-04-30 14:50:47.981] [background] [info] - remote=75, local=75
+14473 [2020-04-30 14:50:47.982] [background] [info] Sync loop deleting unlinked messages with phase 2.
+14473 [2020-04-30 14:50:47.983] [background] [info] Sync loop complete.
+14473 [2020-04-30 14:50:57.623] [metadataExpiration] [info] Scanning for expired metadata
+14473 [2020-04-30 14:50:57.623] [metadataExpiration] [info] -- Will wake for next expiration in 7200sec
+15973 [2020-04-30 14:51:39.182] [main] [info] Identity created at 1580037932 - using ID Schema 1
+15973 [2020-04-30 14:51:39.184] [main] [info] ------------- Starting Sync (gmtstephane@gmail.com) ---------------
+15973 [2020-04-30 14:51:39.195] [metadata] [info] Metadata delta stream starting...
+15973 [2020-04-30 14:51:43.191] [background] [info] Fetching XOAuth2 access token from Gmail for b3476e84
+15973 [2020-04-30 14:51:43.450] [background] [info] Marking all folders as `busy`
+15973 [2020-04-30 14:51:43.452] [background] [info] Syncing folder list...
+15973 [2020-04-30 14:51:43.851] [background] [info] Syncing folder list...
+15973 [2020-04-30 14:51:44.031] [background] [info] Sync loop deleting unlinked messages with phase 2.
+15973 [2020-04-30 14:51:44.033] [background] [info] Sync loop complete.
+15973 [2020-04-30 14:51:44.299] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1236883 to 1236883, uidnext 16180 to 16180
+15973 [2020-04-30 14:51:44.315] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+15973 [2020-04-30 14:51:54.187] [metadataExpiration] [info] Scanning for expired metadata
+15973 [2020-04-30 14:51:54.187] [metadataExpiration] [info] -- Will wake for next expiration in 7200sec
+15973 [2020-04-30 14:53:44.033] [background] [info] Syncing folder list...
+15973 [2020-04-30 14:53:44.123] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 15376 - 16180, Heavy: false
+15973 [2020-04-30 14:53:44.356] [background] [info] - remote=400, local=400
+15973 [2020-04-30 14:53:44.411] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 8827, Heavy: false
+15973 [2020-04-30 14:53:44.516] [background] [info] - remote=50, local=50
+15973 [2020-04-30 14:53:44.556] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 4796, Heavy: false
+15973 [2020-04-30 14:53:44.664] [background] [info] - remote=75, local=75
+15973 [2020-04-30 14:53:44.665] [background] [info] Sync loop deleting unlinked messages with phase 1.
+15973 [2020-04-30 14:53:44.667] [background] [info] Sync loop complete.
+15973 [2020-04-30 14:55:44.667] [background] [info] Syncing folder list...
+15973 [2020-04-30 14:55:44.736] [background] [info] Sleeping after exception: {"debuginfo":"syncFoldersAndLabels - fetchAllFolders","key":"ErrorConnection","retryable":true,"what":"std::exception"}
+15973 [2020-04-30 14:57:44.736] [background] [info] Syncing folder list...
+15973 [2020-04-30 14:57:45.285] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 15376 - 16180, Heavy: false
+15973 [2020-04-30 14:57:45.503] [background] [info] - remote=400, local=400
+15973 [2020-04-30 14:57:45.562] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 8827, Heavy: false
+15973 [2020-04-30 14:57:45.668] [background] [info] - remote=50, local=50
+15973 [2020-04-30 14:57:45.713] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 4796, Heavy: false
+15973 [2020-04-30 14:57:45.832] [background] [info] - remote=75, local=75
+15973 [2020-04-30 14:57:45.833] [background] [info] Sync loop deleting unlinked messages with phase 2.
+15973 [2020-04-30 14:57:45.834] [background] [info] Sync loop complete.
+15973 [2020-04-30 14:57:45.840] [main] [info] Waking all workers...
+15973 [2020-04-30 14:57:45.840] [background] [info] Marking all folders as `busy`
+15973 [2020-04-30 14:57:45.841] [background] [info] Syncing folder list...
+15973 [2020-04-30 14:57:45.878] [foreground] [info] Idle exited with code 0
+15973 [2020-04-30 14:57:45.928] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1236883 to 1236883, uidnext 16180 to 16180
+15973 [2020-04-30 14:57:45.935] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+15973 [2020-04-30 14:57:46.020] [background] [info] Sync loop deleting unlinked messages with phase 1.
+15973 [2020-04-30 14:57:46.023] [background] [info] Sync loop complete.
+15973 [2020-04-30 14:57:46.843] [metadataExpiration] [info] Scanning for expired metadata
+15973 [2020-04-30 14:57:46.843] [metadataExpiration] [info] -- Will wake for next expiration in 7200sec
+15973 [2020-04-30 14:59:46.023] [background] [info] Syncing folder list...
+15973 [2020-04-30 14:59:46.103] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 1 - 0, Heavy: false
+15973 [2020-04-30 14:59:46.845] [background] [info] - remote=2253, local=2253
+15973 [2020-04-30 14:59:46.912] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 0, Heavy: false
+15973 [2020-04-30 14:59:47.014] [background] [info] - remote=50, local=50
+15973 [2020-04-30 14:59:47.058] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 0, Heavy: false
+15973 [2020-04-30 14:59:47.162] [background] [info] - remote=75, local=75
+15973 [2020-04-30 14:59:47.163] [background] [info] Sync loop deleting unlinked messages with phase 2.
+15973 [2020-04-30 14:59:47.164] [background] [info] Sync loop complete.
+15973 [2020-04-30 15:01:47.165] [background] [info] Syncing folder list...
+15973 [2020-04-30 15:01:47.248] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 15376 - 16180, Heavy: false
+15973 [2020-04-30 15:01:47.455] [background] [info] - remote=400, local=400
+15973 [2020-04-30 15:01:47.541] [background] [info] Sync loop deleting unlinked messages with phase 1.
+15973 [2020-04-30 15:01:47.542] [background] [info] Sync loop complete.
+15973 [2020-04-30 15:03:47.542] [background] [info] Syncing folder list...
+15973 [2020-04-30 15:03:47.630] [background] [info] Cleaning local cache and updating stats
+15973 [2020-04-30 15:03:47.637] [background] [info] -- 0 message bodies deleted from local cache.
+15973 [2020-04-30 15:03:47.853] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 8827, Heavy: false
+15973 [2020-04-30 15:03:47.964] [background] [info] - remote=50, local=50
+15973 [2020-04-30 15:03:47.964] [background] [info] Cleaning local cache and updating stats
+15973 [2020-04-30 15:03:47.966] [background] [info] -- 0 message bodies deleted from local cache.
+15973 [2020-04-30 15:03:48.006] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 4796, Heavy: false
+15973 [2020-04-30 15:03:48.110] [background] [info] - remote=75, local=75
+15973 [2020-04-30 15:03:48.110] [background] [info] Cleaning local cache and updating stats
+15973 [2020-04-30 15:03:48.112] [background] [info] -- 0 message bodies deleted from local cache.
+15973 [2020-04-30 15:03:48.114] [background] [info] Sync loop deleting unlinked messages with phase 2.
+15973 [2020-04-30 15:03:48.116] [background] [info] Sync loop complete.
+15973 [2020-04-30 15:05:48.116] [background] [info] Syncing folder list...
+15973 [2020-04-30 15:05:48.199] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 15376 - 16180, Heavy: false
+15973 [2020-04-30 15:05:48.409] [background] [info] - remote=400, local=400
+15973 [2020-04-30 15:05:48.463] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 8827, Heavy: false
+15973 [2020-04-30 15:05:48.561] [background] [info] - remote=50, local=50
+15973 [2020-04-30 15:05:48.600] [background] [info] Sync loop deleting unlinked messages with phase 1.
+15973 [2020-04-30 15:05:48.602] [background] [info] Sync loop complete.
+15973 [2020-04-30 15:07:48.602] [background] [info] Syncing folder list...
+15973 [2020-04-30 15:07:48.787] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 4796, Heavy: false
+15973 [2020-04-30 15:07:48.907] [background] [info] - remote=75, local=75
+15973 [2020-04-30 15:07:48.908] [background] [info] Sync loop deleting unlinked messages with phase 2.
+15973 [2020-04-30 15:07:48.910] [background] [info] Sync loop complete.
+15973 [2020-04-30 15:09:48.911] [background] [info] Syncing folder list...
+15973 [2020-04-30 15:09:48.994] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 1 - 0, Heavy: false
+15973 [2020-04-30 15:09:49.850] [background] [info] - remote=2253, local=2253
+15973 [2020-04-30 15:09:49.916] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 0, Heavy: false
+15973 [2020-04-30 15:09:50.077] [background] [info] - remote=50, local=50
+15973 [2020-04-30 15:09:50.125] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 0, Heavy: false
+15973 [2020-04-30 15:09:50.243] [background] [info] - remote=75, local=75
+15973 [2020-04-30 15:09:50.244] [background] [info] Sync loop deleting unlinked messages with phase 1.
+15973 [2020-04-30 15:09:50.247] [background] [info] Sync loop complete.
+15973 [2020-04-30 15:10:00.923] [metadata] [info] Metadata delta stream closed.
+15973 [2020-04-30 15:10:00.927] [metadata] [info] Metadata delta stream starting...
+15973 [2020-04-30 15:11:50.247] [background] [info] Syncing folder list...
+15973 [2020-04-30 15:11:50.329] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 15376 - 16180, Heavy: false
+15973 [2020-04-30 15:11:50.583] [background] [info] - remote=400, local=400
+15973 [2020-04-30 15:11:50.668] [background] [info] Sync loop deleting unlinked messages with phase 2.
+15973 [2020-04-30 15:11:50.670] [background] [info] Sync loop complete.
+15973 [2020-04-30 15:13:50.671] [background] [info] Syncing folder list...
+15973 [2020-04-30 15:13:50.801] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 8827, Heavy: false
+15973 [2020-04-30 15:13:50.907] [background] [info] - remote=50, local=50
+15973 [2020-04-30 15:13:50.947] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 4796, Heavy: false
+15973 [2020-04-30 15:13:51.052] [background] [info] - remote=75, local=75
+15973 [2020-04-30 15:13:51.053] [background] [info] Sync loop deleting unlinked messages with phase 1.
+15973 [2020-04-30 15:13:51.055] [background] [info] Sync loop complete.
+15973 [2020-04-30 15:15:51.055] [background] [info] Syncing folder list...
+15973 [2020-04-30 15:15:51.141] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 15376 - 16180, Heavy: false
+15973 [2020-04-30 15:15:51.348] [background] [info] - remote=400, local=400
+15973 [2020-04-30 15:15:51.394] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 8827, Heavy: false
+15973 [2020-04-30 15:15:51.502] [background] [info] - remote=50, local=50
+15973 [2020-04-30 15:15:51.548] [background] [info] Sync loop deleting unlinked messages with phase 2.
+15973 [2020-04-30 15:15:51.551] [background] [info] Sync loop complete.
+15973 [2020-04-30 15:17:51.551] [background] [info] Syncing folder list...
+15973 [2020-04-30 15:17:51.762] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 4796, Heavy: false
+15973 [2020-04-30 15:17:51.937] [background] [info] - remote=75, local=75
+15973 [2020-04-30 15:17:51.939] [background] [info] Sync loop deleting unlinked messages with phase 1.
+15973 [2020-04-30 15:17:51.941] [background] [info] Sync loop complete.
+15973 [2020-04-30 15:19:51.941] [background] [info] Syncing folder list...
+15973 [2020-04-30 15:19:52.027] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 1 - 0, Heavy: false
+15973 [2020-04-30 15:19:52.755] [background] [info] - remote=2253, local=2253
+15973 [2020-04-30 15:19:52.811] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 0, Heavy: false
+15973 [2020-04-30 15:19:52.914] [background] [info] - remote=50, local=50
+15973 [2020-04-30 15:19:52.953] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 0, Heavy: false
+15973 [2020-04-30 15:19:53.128] [background] [info] - remote=75, local=75
+15973 [2020-04-30 15:19:53.128] [background] [info] Sync loop deleting unlinked messages with phase 2.
+15973 [2020-04-30 15:19:53.129] [background] [info] Sync loop complete.
+15973 [2020-04-30 15:21:53.130] [background] [info] Syncing folder list...
+15973 [2020-04-30 15:21:53.210] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 15376 - 16180, Heavy: false
+15973 [2020-04-30 15:21:53.420] [background] [info] - remote=400, local=400
+15973 [2020-04-30 15:21:53.471] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 8827, Heavy: false
+15973 [2020-04-30 15:21:53.572] [background] [info] - remote=50, local=50
+15973 [2020-04-30 15:21:53.612] [background] [info] Sync loop deleting unlinked messages with phase 1.
+15973 [2020-04-30 15:21:53.613] [background] [info] Sync loop complete.
+15973 [2020-04-30 15:23:53.613] [background] [info] Syncing folder list...
+15973 [2020-04-30 15:23:53.788] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 4796, Heavy: false
+15973 [2020-04-30 15:23:53.898] [background] [info] - remote=75, local=75
+15973 [2020-04-30 15:23:53.898] [background] [info] Sync loop deleting unlinked messages with phase 2.
+15973 [2020-04-30 15:23:53.899] [background] [info] Sync loop complete.
+15973 [2020-04-30 15:25:46.115] [foreground] [info] Idle exited with code 0
+15973 [2020-04-30 15:25:46.155] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1236883 to 1236883, uidnext 16180 to 16180
+15973 [2020-04-30 15:25:46.162] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+15973 [2020-04-30 15:25:53.900] [background] [info] Syncing folder list...
+15973 [2020-04-30 15:25:54.022] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 15376 - 16180, Heavy: false
+15973 [2020-04-30 15:25:54.280] [background] [info] - remote=400, local=400
+15973 [2020-04-30 15:25:54.332] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 8827, Heavy: false
+15973 [2020-04-30 15:25:54.444] [background] [info] - remote=50, local=50
+15973 [2020-04-30 15:25:54.485] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 4796, Heavy: false
+15973 [2020-04-30 15:25:54.618] [background] [info] - remote=75, local=75
+15973 [2020-04-30 15:25:54.619] [background] [info] Sync loop deleting unlinked messages with phase 1.
+15973 [2020-04-30 15:25:54.620] [background] [info] Sync loop complete.
+15973 [2020-04-30 15:27:54.620] [background] [info] Syncing folder list...
+15973 [2020-04-30 15:27:54.785] [background] [info] Sync loop deleting unlinked messages with phase 2.
+15973 [2020-04-30 15:27:54.786] [background] [info] Sync loop complete.
+15973 [2020-04-30 15:28:46.574] [metadata] [info] Metadata delta stream closed.
+15973 [2020-04-30 15:28:46.578] [metadata] [info] Metadata delta stream starting...
+15973 [2020-04-30 15:29:54.786] [background] [info] Syncing folder list...
+15973 [2020-04-30 15:29:54.868] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 1 - 0, Heavy: false
+15973 [2020-04-30 15:29:55.635] [background] [info] - remote=2253, local=2253
+15973 [2020-04-30 15:29:55.692] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 0, Heavy: false
+15973 [2020-04-30 15:29:55.814] [background] [info] - remote=50, local=50
+15973 [2020-04-30 15:29:55.862] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 0, Heavy: false
+15973 [2020-04-30 15:29:55.992] [background] [info] - remote=75, local=75
+15973 [2020-04-30 15:29:55.993] [background] [info] Sync loop deleting unlinked messages with phase 1.
+15973 [2020-04-30 15:29:55.994] [background] [info] Sync loop complete.
+21685 [2020-04-30 18:41:58.973] [main] [info] Identity created at 1580037932 - using ID Schema 1
+21685 [2020-04-30 18:41:59.053] [main] [info] ------------- Starting Sync (gmtstephane@gmail.com) ---------------
+21685 [2020-04-30 18:41:59.063] [metadata] [info] Metadata delta stream starting...
+21740 [2020-04-30 18:42:01.943] [main] [info] Identity created at 1580037932 - using ID Schema 1
+21740 [2020-04-30 18:42:01.946] [main] [info] ------------- Starting Sync (gmtstephane@gmail.com) ---------------
+21740 [2020-04-30 18:42:01.953] [metadata] [info] Metadata delta stream starting...
+21685 [2020-04-30 18:42:03.059] [background] [info] Fetching XOAuth2 access token from Gmail for b3476e84
+21685 [2020-04-30 18:42:03.290] [background] [info] Marking all folders as `busy`
+21685 [2020-04-30 18:42:03.293] [background] [info] Syncing folder list...
+21685 [2020-04-30 18:42:03.937] [background] [info] Syncing folder list...
+21685 [2020-04-30 18:42:04.026] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 16180 - 16183, Heavy: true
+21685 [2020-04-30 18:42:04.222] [background] [info] - remote=2, local=0
+21685 [2020-04-30 18:42:04.371] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1236883 to 1237045, uidnext 16180 to 16183
+21685 [2020-04-30 18:42:04.508] [foreground] [info] syncFolderChangesViaCondstore - Changes since HMODSEQ 1236883: 2 changed, 0 vanished
+21685 [2020-04-30 18:42:04.567] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 15376 - 16183, Heavy: false
+21685 [2020-04-30 18:42:04.630] [foreground] [info] Body for 1 messages already being fetched.
+21685 [2020-04-30 18:42:04.631] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+21685 [2020-04-30 18:42:04.834] [background] [info] - remote=402, local=402
+21685 [2020-04-30 18:42:04.850] [background] [info] Cleaning local cache and updating stats
+21685 [2020-04-30 18:42:04.864] [background] [info] -- 0 message bodies deleted from local cache.
+21685 [2020-04-30 18:42:05.091] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 8827 - 8828, Heavy: true
+21685 [2020-04-30 18:42:05.198] [background] [info] - remote=1, local=0
+21685 [2020-04-30 18:42:05.205] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 8828, Heavy: false
+21685 [2020-04-30 18:42:05.264] [background] [info] - remote=51, local=51
+21685 [2020-04-30 18:42:05.264] [background] [info] Cleaning local cache and updating stats
+21685 [2020-04-30 18:42:05.268] [background] [info] -- 0 message bodies deleted from local cache.
+21685 [2020-04-30 18:42:05.316] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 4796, Heavy: false
+21685 [2020-04-30 18:42:05.427] [background] [info] - remote=75, local=75
+21685 [2020-04-30 18:42:05.428] [background] [info] Cleaning local cache and updating stats
+21685 [2020-04-30 18:42:05.431] [background] [info] -- 0 message bodies deleted from local cache.
+21685 [2020-04-30 18:42:05.435] [background] [info] Sync loop deleting unlinked messages with phase 2.
+21685 [2020-04-30 18:42:05.437] [background] [info] Sync loop complete.
+21740 [2020-04-30 18:42:05.951] [background] [info] Fetching XOAuth2 access token from Gmail for b3476e84
+21740 [2020-04-30 18:42:06.208] [background] [info] Marking all folders as `busy`
+21740 [2020-04-30 18:42:06.210] [background] [info] Syncing folder list...
+21740 [2020-04-30 18:42:06.630] [background] [info] Syncing folder list...
+21740 [2020-04-30 18:42:06.817] [background] [info] Sync loop deleting unlinked messages with phase 2.
+21740 [2020-04-30 18:42:06.818] [background] [info] Sync loop complete.
+21740 [2020-04-30 18:42:07.052] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1237045 to 1237045, uidnext 16183 to 16183
+21740 [2020-04-30 18:42:07.067] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+21685 [2020-04-30 18:42:14.058] [metadataExpiration] [info] Scanning for expired metadata
+21685 [2020-04-30 18:42:14.058] [metadataExpiration] [info] -- Will wake for next expiration in 7200sec
+21740 [2020-04-30 18:42:16.948] [metadataExpiration] [info] Scanning for expired metadata
+21740 [2020-04-30 18:42:16.948] [metadataExpiration] [info] -- Will wake for next expiration in 7200sec
+21740 [2020-04-30 18:44:06.818] [background] [info] Syncing folder list...
+21740 [2020-04-30 18:44:06.907] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 1 - 0, Heavy: false
+21740 [2020-04-30 18:44:08.032] [background] [info] - remote=2255, local=2255
+21740 [2020-04-30 18:44:08.093] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 0, Heavy: false
+21740 [2020-04-30 18:44:08.263] [background] [info] - remote=51, local=51
+21740 [2020-04-30 18:44:08.304] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 0, Heavy: false
+21740 [2020-04-30 18:44:08.413] [background] [info] - remote=75, local=75
+21740 [2020-04-30 18:44:08.414] [background] [info] Sync loop deleting unlinked messages with phase 1.
+21740 [2020-04-30 18:44:08.415] [background] [info] Sync loop complete.
+21740 [2020-04-30 18:46:08.415] [background] [info] Syncing folder list...
+21740 [2020-04-30 18:46:08.588] [background] [info] Sync loop deleting unlinked messages with phase 2.
+21740 [2020-04-30 18:46:08.589] [background] [info] Sync loop complete.
+24973 [2020-04-30 18:47:25.630] [main] [info] Identity created at 1580037932 - using ID Schema 1
+24973 [2020-04-30 18:47:25.635] [main] [info] ------------- Starting Sync (gmtstephane@gmail.com) ---------------
+24973 [2020-04-30 18:47:25.648] [metadata] [info] Metadata delta stream starting...
+24973 [2020-04-30 18:47:28.528] [main] [info] [local-aadd1e44-8bbb] Running ChangeUnreadTask performLocal:
+24973 [2020-04-30 18:47:28.538] [main] [info] [local-aadd1e44-8bbb] -- Succeeded. Changing status to `remote`
+24973 [2020-04-30 18:47:29.645] [background] [info] Fetching XOAuth2 access token from Gmail for b3476e84
+24973 [2020-04-30 18:47:29.947] [background] [info] Marking all folders as `busy`
+24973 [2020-04-30 18:47:29.948] [background] [info] Syncing folder list...
+24973 [2020-04-30 18:47:30.085] [main] [info] [local-5d2742ca-275c] Running ChangeUnreadTask performLocal:
+24973 [2020-04-30 18:47:30.091] [main] [info] [local-5d2742ca-275c] -- Succeeded. Changing status to `remote`
+24973 [2020-04-30 18:47:30.876] [background] [info] Syncing folder list...
+24973 [2020-04-30 18:47:30.964] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 15380 - 16183, Heavy: false
+24973 [2020-04-30 18:47:31.184] [background] [info] - remote=400, local=400
+24973 [2020-04-30 18:47:31.188] [background] [info] - Fetching full headers for 2 (of 2 needed)
+24973 [2020-04-30 18:47:31.268] [background] [warning] Ignoring changes to Les beaux jours arrivent, nos conseils sur la protection solaire de vos yeux, local data is newer 1588265251 < 1588351648
+24973 [2020-04-30 18:47:31.271] [foreground] [info] [local-aadd1e44-8bbb] Running ChangeUnreadTask performRemote:
+24973 [2020-04-30 18:47:31.272] [background] [warning] Ignoring changes to How to Needle Felt a Hippopotamus, local data is newer 1588265251 < 1588351650
+24973 [2020-04-30 18:47:31.335] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 8828, Heavy: false
+24973 [2020-04-30 18:47:31.797] [background] [info] - remote=51, local=51
+24973 [2020-04-30 18:47:31.805] [foreground] [info] [local-aadd1e44-8bbb] -- Succeeded. Changing status to `complete`
+24973 [2020-04-30 18:47:31.805] [foreground] [info] [local-5d2742ca-275c] Running ChangeUnreadTask performRemote:
+24973 [2020-04-30 18:47:31.865] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 4796, Heavy: false
+24973 [2020-04-30 18:47:32.051] [foreground] [info] [local-5d2742ca-275c] -- Succeeded. Changing status to `complete`
+24973 [2020-04-30 18:47:32.115] [background] [info] - remote=75, local=75
+24973 [2020-04-30 18:47:32.116] [background] [info] Sync loop deleting unlinked messages with phase 2.
+24973 [2020-04-30 18:47:32.119] [background] [info] Sync loop complete.
+24973 [2020-04-30 18:47:32.128] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1237045 to 1237139, uidnext 16183 to 16183
+24973 [2020-04-30 18:47:32.202] [foreground] [info] syncFolderChangesViaCondstore - Changes since HMODSEQ 1237045: 2 changed, 0 vanished
+24973 [2020-04-30 18:47:32.214] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+21740 [2020-04-30 18:47:32.341] [foreground] [info] Idle exited with code 0
+21740 [2020-04-30 18:47:32.393] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1237139 to 1237168, uidnext 16183 to 16183
+21740 [2020-04-30 18:47:32.443] [foreground] [info] syncFolderChangesViaCondstore - Changes since HMODSEQ 1237139: 0 changed, 0 vanished
+21740 [2020-04-30 18:47:32.456] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+24973 [2020-04-30 18:47:40.638] [metadataExpiration] [info] Scanning for expired metadata
+24973 [2020-04-30 18:47:40.638] [metadataExpiration] [info] -- Will wake for next expiration in 7200sec
+24973 [2020-04-30 18:49:32.119] [background] [info] Syncing folder list...
+24973 [2020-04-30 18:49:32.222] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 15380 - 16183, Heavy: false
+24973 [2020-04-30 18:49:32.448] [background] [info] - remote=400, local=400
+24973 [2020-04-30 18:49:32.503] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 8828, Heavy: false
+24973 [2020-04-30 18:49:32.613] [background] [info] - remote=51, local=51
+24973 [2020-04-30 18:49:32.653] [background] [info] Sync loop deleting unlinked messages with phase 1.
+24973 [2020-04-30 18:49:32.655] [background] [info] Sync loop complete.
+27711 [2020-04-30 18:51:04.981] [main] [info] Identity created at 1580037932 - using ID Schema 1
+27711 [2020-04-30 18:51:04.983] [main] [info] ------------- Starting Sync (gmtstephane@gmail.com) ---------------
+27711 [2020-04-30 18:51:04.992] [metadata] [info] Metadata delta stream starting...
+27711 [2020-04-30 18:51:08.990] [background] [info] Fetching XOAuth2 access token from Gmail for b3476e84
+27711 [2020-04-30 18:51:09.190] [background] [info] Marking all folders as `busy`
+27711 [2020-04-30 18:51:09.192] [background] [info] Syncing folder list...
+27711 [2020-04-30 18:51:09.641] [background] [info] Syncing folder list...
+27711 [2020-04-30 18:51:09.822] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 4796, Heavy: false
+27711 [2020-04-30 18:51:09.931] [background] [info] - remote=75, local=75
+27711 [2020-04-30 18:51:09.932] [background] [info] Sync loop deleting unlinked messages with phase 2.
+27711 [2020-04-30 18:51:09.933] [background] [info] Sync loop complete.
+27711 [2020-04-30 18:51:10.055] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1237168 to 1237168, uidnext 16183 to 16183
+27711 [2020-04-30 18:51:10.064] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+27711 [2020-04-30 18:51:19.986] [metadataExpiration] [info] Scanning for expired metadata
+27711 [2020-04-30 18:51:19.987] [metadataExpiration] [info] -- Will wake for next expiration in 7200sec
+24973 [2020-04-30 18:51:32.656] [background] [info] Syncing folder list...
+24973 [2020-04-30 18:51:32.823] [background] [info] Sync loop deleting unlinked messages with phase 2.
+24973 [2020-04-30 18:51:32.825] [background] [info] Sync loop complete.
+27711 [2020-04-30 18:53:09.934] [background] [info] Syncing folder list...
+27711 [2020-04-30 18:53:10.021] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 15380 - 16183, Heavy: false
+27711 [2020-04-30 18:53:10.232] [background] [info] - remote=400, local=400
+27711 [2020-04-30 18:53:10.286] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 8828, Heavy: false
+27711 [2020-04-30 18:53:10.400] [background] [info] - remote=51, local=51
+27711 [2020-04-30 18:53:10.440] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 4796, Heavy: false
+27711 [2020-04-30 18:53:10.548] [background] [info] - remote=75, local=75
+27711 [2020-04-30 18:53:10.549] [background] [info] Sync loop deleting unlinked messages with phase 1.
+27711 [2020-04-30 18:53:10.551] [background] [info] Sync loop complete.
+27711 [2020-04-30 18:55:10.551] [background] [info] Syncing folder list...
+27711 [2020-04-30 18:55:10.632] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 1 - 0, Heavy: false
+27711 [2020-04-30 18:55:11.543] [background] [info] - remote=2255, local=2255
+27711 [2020-04-30 18:55:11.613] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 0, Heavy: false
+27711 [2020-04-30 18:55:11.720] [background] [info] - remote=51, local=51
+27711 [2020-04-30 18:55:11.767] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 0, Heavy: false
+27711 [2020-04-30 18:55:11.873] [background] [info] - remote=75, local=75
+27711 [2020-04-30 18:55:11.874] [background] [info] Sync loop deleting unlinked messages with phase 2.
+27711 [2020-04-30 18:55:11.876] [background] [info] Sync loop complete.
+27711 [2020-04-30 18:57:11.876] [background] [info] Syncing folder list...
+27711 [2020-04-30 18:57:12.038] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 4796, Heavy: false
+27711 [2020-04-30 18:57:12.100] [background] [info] - remote=75, local=75
+27711 [2020-04-30 18:57:12.101] [background] [info] Sync loop deleting unlinked messages with phase 1.
+27711 [2020-04-30 18:57:12.103] [background] [info] Sync loop complete.
+27711 [2020-04-30 18:59:12.104] [background] [info] Syncing folder list...
+27711 [2020-04-30 18:59:12.187] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 15380 - 16183, Heavy: false
+27711 [2020-04-30 18:59:12.396] [background] [info] - remote=400, local=400
+27711 [2020-04-30 18:59:12.447] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 8828, Heavy: false
+27711 [2020-04-30 18:59:12.548] [background] [info] - remote=51, local=51
+27711 [2020-04-30 18:59:12.588] [background] [info] Sync loop deleting unlinked messages with phase 2.
+27711 [2020-04-30 18:59:12.590] [background] [info] Sync loop complete.
+4355 [2020-04-30 20:51:37.508] [main] [info] Identity created at 1580037932 - using ID Schema 1
+4355 [2020-04-30 20:51:37.606] [main] [info] ------------- Starting Sync (gmtstephane@gmail.com) ---------------
+4355 [2020-04-30 20:51:37.616] [metadata] [info] Metadata delta stream starting...
+4355 [2020-04-30 20:51:41.612] [background] [info] Fetching XOAuth2 access token from Gmail for b3476e84
+4355 [2020-04-30 20:51:41.910] [background] [info] Marking all folders as `busy`
+4355 [2020-04-30 20:51:41.917] [background] [info] Syncing folder list...
+4355 [2020-04-30 20:51:42.775] [background] [info] Syncing folder list...
+4355 [2020-04-30 20:51:42.877] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 16183 - 16185, Heavy: true
+4355 [2020-04-30 20:51:43.058] [background] [info] - remote=1, local=0
+4355 [2020-04-30 20:51:43.189] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 15380 - 16185, Heavy: false
+4355 [2020-04-30 20:51:43.298] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/Tous les messages: modseq 1237168 to 1237338, uidnext 16183 to 16185
+4355 [2020-04-30 20:51:43.436] [background] [info] - remote=401, local=401
+4355 [2020-04-30 20:51:43.516] [foreground] [info] syncFolderChangesViaCondstore - Changes since HMODSEQ 1237168: 1 changed, 0 vanished
+4355 [2020-04-30 20:51:43.578] [background] [info] Cleaning local cache and updating stats
+4355 [2020-04-30 20:51:43.592] [background] [info] -- 0 message bodies deleted from local cache.
+4355 [2020-04-30 20:51:43.601] [foreground] [info] Idling on folder [Gmail]/Tous les messages
+4355 [2020-04-30 20:51:43.866] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 8828 - 8829, Heavy: true
+4355 [2020-04-30 20:51:44.005] [background] [info] - remote=1, local=0
+4355 [2020-04-30 20:51:44.012] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 8829, Heavy: false
+4355 [2020-04-30 20:51:44.069] [background] [info] - remote=52, local=52
+4355 [2020-04-30 20:51:44.070] [background] [info] Cleaning local cache and updating stats
+4355 [2020-04-30 20:51:44.073] [background] [info] -- 0 message bodies deleted from local cache.
+4355 [2020-04-30 20:51:44.122] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 4796, Heavy: false
+4355 [2020-04-30 20:51:44.252] [background] [info] - remote=75, local=75
+4355 [2020-04-30 20:51:44.252] [background] [info] Cleaning local cache and updating stats
+4355 [2020-04-30 20:51:44.255] [background] [info] -- 0 message bodies deleted from local cache.
+4355 [2020-04-30 20:51:44.258] [background] [info] Sync loop deleting unlinked messages with phase 2.
+4355 [2020-04-30 20:51:44.260] [background] [info] Sync loop complete.
+4355 [2020-04-30 20:51:52.612] [metadataExpiration] [info] Scanning for expired metadata
+4355 [2020-04-30 20:51:52.612] [metadataExpiration] [info] -- Will wake for next expiration in 7200sec
+4355 [2020-04-30 20:52:01.583] [calContacts] [info] Encountered exception: {"debuginfo":"https://apidata.googleusercontent.com/caldav/v2/gmtstephane@gmail.com RETURNED <?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<errors xmlns=\"http://schemas.google.com/g/2005\">\n <error>\n  <domain>usageLimits</domain>\n  <code>dailyLimitExceeded</code>\n  <internalReason>Daily Limit Exceeded. The quota will be reset at midnight Pacific Time (PT). You may monitor your quota usage and adjust limits in the API Console: https://console.developers.google.com/apis/api/caldav.googleapis.com/quotas?project=662287800555</internalReason>\n  <extendedHelp>https://console.developers.google.com/apis/api/caldav.googleapis.com/quotas?project=662287800555</extendedHelp>\n </error>\n</errors>\n","key":"Invalid Response Code: 403","retryable":false,"what":"std::exception"}
+4355 [2020-04-30 20:52:01.583] [calContacts] [info] Suspending sync for 4 hours - Google app API request quota hit.
+4355 [2020-04-30 20:53:44.261] [background] [info] Syncing folder list...
+4355 [2020-04-30 20:53:44.355] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 1 - 0, Heavy: false
+4355 [2020-04-30 20:53:45.185] [background] [info] - remote=2256, local=2256
+4355 [2020-04-30 20:53:45.245] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 0, Heavy: false
+4355 [2020-04-30 20:53:45.338] [background] [info] - remote=52, local=52
+4355 [2020-04-30 20:53:45.372] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 0, Heavy: false
+4355 [2020-04-30 20:53:45.499] [background] [info] - remote=75, local=75
+4355 [2020-04-30 20:53:45.500] [background] [info] Sync loop deleting unlinked messages with phase 1.
+4355 [2020-04-30 20:53:45.502] [background] [info] Sync loop complete.
+4355 [2020-04-30 20:55:45.502] [background] [info] Syncing folder list...
+4355 [2020-04-30 20:55:45.771] [background] [info] Sync loop deleting unlinked messages with phase 2.
+4355 [2020-04-30 20:55:45.773] [background] [info] Sync loop complete.
+4355 [2020-04-30 20:57:45.774] [background] [info] Syncing folder list...
+4355 [2020-04-30 20:57:45.882] [background] [info] syncFolderUIDRange for [Gmail]/Tous les messages, UIDs: 15381 - 16185, Heavy: false
+4355 [2020-04-30 20:57:46.144] [background] [info] - remote=400, local=400
+4355 [2020-04-30 20:57:46.198] [background] [info] syncFolderUIDRange for [Gmail]/Corbeille, UIDs: 1 - 8829, Heavy: false
+4355 [2020-04-30 20:57:46.326] [background] [info] - remote=52, local=52
+4355 [2020-04-30 20:57:46.370] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 4796, Heavy: false
+4355 [2020-04-30 20:57:46.510] [background] [info] - remote=75, local=75
+4355 [2020-04-30 20:57:46.511] [background] [info] Sync loop deleting unlinked messages with phase 1.
+4355 [2020-04-30 20:57:46.513] [background] [info] Sync loop complete.

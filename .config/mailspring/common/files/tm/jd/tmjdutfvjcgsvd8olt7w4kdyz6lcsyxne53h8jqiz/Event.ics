@@ -1,0 +1,96 @@
+BEGIN:VCALENDAR
+METHOD:REQUEST
+PRODID:Microsoft Exchange Server 2010
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID:Romance Standard Time
+BEGIN:STANDARD
+DTSTART:16010101T030000
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+RRULE:FREQ=YEARLY;INTERVAL=1;BYDAY=-1SU;BYMONTH=10
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:16010101T020000
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+RRULE:FREQ=YEARLY;INTERVAL=1;BYDAY=-1SU;BYMONTH=3
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+ORGANIZER;CN=CARRENO Oswaldo DTSI/DERS:MAILTO:oswaldo.carreno@orange.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=gmtstephan
+ e@gmail.com:MAILTO:gmtstephane@gmail.com
+DESCRIPTION;LANGUAGE=fr-FR:Bonjour\,\n\nNous vous confirmons la réservatio
+ n de votre réunion Entretien Stéphane G\n\njeudi 09 avril 2020 de 10h00 
+ à 11h30 (GMT+02:00) Europe/Paris (Summer Time)\nPour gérer la réunion v
+ ous aurez besoin de votre code organisateur accessible depuis l’onglet 
+ «votre compte».\n\n\n\nPour vous connecter manuellement :\n\ndepuis un o
+ rdinateur\, une tablette ou un smartphone (iOS ou Android) connecté à in
+ ternet :\n› lancez Video Meeting https://www.desktop.videoconferencing.o
+ range-business.com/orange/entry/index.jsp?ID=841002092511\n› pour une me
+ illeure expérience\, nous vous conseillons d’être équipé d’une web
+ cam et d’un casque avec micro intégré\n› pour une meilleure expérie
+ nce\, nous vous conseillons d’être équipé d’une webcam et d’un ca
+ sque avec micro intégré\n\ndepuis une salle Open Videopresence Flexible 
+ Express :\n› composez directement le 84 10020 92511\n\n\n\n\n\nPour pilo
+ ter votre réunion (gestion des micros\, des caméras\, etc…) depuis un 
+ ordinateur\, une tablette ou un smartphone connecté à internet :\n› ou
+ vrez Video Pilot https://www.videopilot.orange-business.com/?gid=B91730819
+ 680D99DBE0F3CD8047E5EA13160D2CD18712740667A04E4B13B175F\nDétails de votre
+  réunion :\n› description : Entretien Poste automatisation\n› options
+  sécurité : code d’accès de modération\n› options connexion : d’
+ un ordinateur\, d’une tablette ou d’un smartphone\n\n\n\nBesoin d’ai
+ de ?\nVous pouvez nous contacter 24h/24 et 7j/7 au +33170480368 muni de vo
+ tre référence de dossier n° DEM 10020 038790\nVous pouvez aussi modifie
+ r ou annuler cette demande de réservation depuis le portail Orange Videoc
+ onferencing\n\n\n\nA bientôt\,\nL’équipe Orange Business Services\nCec
+ i est un message automatique\, merci de ne pas y répondre.\n\n\nHello\,\n
+ Your meeting has been reserved. Entretien Stéphane G\nThursday 09 April 2
+ 020 from 10h00 to 11h30 (GMT+02:00) Europe/Paris (Summer Time)\nTo manage 
+ the meeting you will need your moderator code which is available from « Y
+ our Account ».\n\n\n\nTo connect manually:\n\nfrom a computer\, tablet\, 
+ or (iOS or Android) smartphone connected on the internet :\n› start Vide
+ o Meeting by clicking on https://www.desktop.videoconferencing.orange-busi
+ ness.com/orange/entry/index.jsp?ID=841002092511\n› for a better experien
+ ce\, we recommend you use a webcam and headset with built-in microphone\n
+ › for a better experience\, we recommend you use a webcam and headset wi
+ th built-in microphone\n\nfrom a room Open Videopresence Flexible Express 
+ :\n› enter directly 84 10020 92511\n\n\n\n\n\nTo manage the participants
+  (control microphones\, cameras\, etc.) at your meeting from a computer\, 
+ tablet or smartphone connected to the Internet:\n› launch Video Pilot by
+  clicking on https://www.videopilot.orange-business.com/?gid=B91730819680D
+ 99DBE0F3CD8047E5EA13160D2CD18712740667A04E4B13B175F\nYour meeting’s deta
+ ils:\n› description: Entretien Poste automatisation\n› security option
+ s: moderator code\n› connection options: a computer\, tablet or smartpho
+ ne\n\n\n\nNeed help ?\nYou can contact us 24 hours a day\, 7 days a week o
+ n  +33170480368 with your file reference to hand n° DEM 10020 038790\nYou
+  may also modify or cancel this reservation request from the Orange Videoc
+ onferencing portal\n\n\n\nRegards.\nThe Orange Business Services team\nThi
+ s is an automatic message. Please do not reply.\n\n\n
+SUMMARY;LANGUAGE=fr-FR:Réunion Entretien Stéphane G
+DTSTART;TZID=Romance Standard Time:20200409T100000
+DTEND;TZID=Romance Standard Time:20200409T113000
+UID:10020038790
+CLASS:PUBLIC
+PRIORITY:5
+DTSTAMP:20200402T145956Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SEQUENCE:1
+LOCATION;LANGUAGE=fr-FR:Visio 
+X-MICROSOFT-CDO-APPT-SEQUENCE:1
+X-MICROSOFT-CDO-OWNERAPPTID:-1623046172
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:REMINDER
+TRIGGER;RELATED=START:-PT15M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

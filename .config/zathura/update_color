@@ -1,0 +1,11 @@
+#!/bin/bash
+wal -i $1
+
+
+if test $? -eq 0
+then	    
+    wal -R
+    /home/stef/.config/zathura/generate_config.py
+else
+	echo "1"
+fi

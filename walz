@@ -1,0 +1,17 @@
+#!/bin/bash
+
+wal -i $1 $2
+
+
+if test $? -eq 0
+then	    
+    /home/stef/.config/zathura/generate_config.py
+    /home/stef/snap/mailspring/common/generate_config.py
+    /home/stef/.config/polybar/colors.sh
+    /home/stef/.config/dunst/generate_config.py
+    /home/stef/.config/dunst/restart.sh
+    /home/stef/.mozilla/Pywalfox/daemon/pywalfox.py update
+    neofetch --w3m
+else
+	echo "1"
+fi
