@@ -24,13 +24,6 @@ cd polybar
 
 
 
-##ZSH
-sudo apt install zsh
-sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-cd /tmp/
-git clone https://github.com/pascaldevink/spaceship-zsh-theme.git
-cd spaceship-zsh-theme
-zsh install.zsh
 
 #NVIM
 sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
@@ -39,3 +32,18 @@ cd /tmp/
 git clone https://github.com/arcticicestudio/nord-xfce-terminal.git
 cd nord-xfce-terminal
 ./install.sh
+
+
+echo "VteTerminal, vte-terminal {
+    padding: 16px;
+}" >> /home/$USER/.config/gtk-3.0/gtk.css
+
+##ZSH
+sudo apt install zsh
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+cd /tmp/
+git clone https://github.com/pascaldevink/spaceship-zsh-theme.git
+cd spaceship-zsh-theme
+zsh install.zsh
+echo "PACESHIP_PROMPT_ADD_NEWLINE=false
+alias vim=nvim" >> /home/$USER/.zshrc
