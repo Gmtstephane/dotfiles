@@ -1,13 +1,13 @@
 #!/usr/bin/python
 import json
 
-background_color=""
-foreground_color=""
+background_color="#272A34"
+foreground_color="#EEEEEE"
 
-with open('/home/stef/.cache/wal/colors.json') as json_file:
-    data = json.load(json_file)
-    background_color=data['special']['background']
-    foreground_color=data['colors']['color1']
+#with open('/home/stef/.cache/wal/colors.json') as json_file:
+#    data = json.load(json_file)
+#    background_color=data['special']['background']
+#    foreground_color=data['colors']['color1']
 
 
 config=f"""# Dracula color theme for Zathura

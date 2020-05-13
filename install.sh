@@ -38,6 +38,18 @@ echo "VteTerminal, vte-terminal {
     padding: 16px;
 }" >> /home/$USER/.config/gtk-3.0/gtk.css
 
+##Software INSTALL 
+
+sudo apt install zathura 
+
+#install vscode and nord theme
+cd /tmp
+wget https://go.microsoft.com/fwlink/?LinkID=760868 -O code.deb
+sudo dpkg -i code.deb
+code --install-extension arcticicestudio.nord-visual-studio-code
+cp /home/$USER/.config/Code/settings.json /home/$USER/.config/Code/User/
+
+
 ##ZSH
 sudo apt install zsh
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
@@ -45,5 +57,5 @@ cd /tmp/
 git clone https://github.com/pascaldevink/spaceship-zsh-theme.git
 cd spaceship-zsh-theme
 zsh install.zsh
-echo "PACESHIP_PROMPT_ADD_NEWLINE=false
+echo "SPACESHIP_PROMPT_ADD_NEWLINE=false
 alias vim=nvim" >> /home/$USER/.zshrc
