@@ -1,0 +1,18 @@
+[2020-06-10 10:48:24.655] [exthost] [info] extension host started
+[2020-06-10 10:48:24.771] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2020-06-10 10:48:24.771] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/vscode/resources/app/extensions/debug-auto-launch/dist/extension
+[2020-06-10 10:48:24.778] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"*"}
+[2020-06-10 10:48:24.778] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/vscode/resources/app/extensions/emmet/dist/extension
+[2020-06-10 10:48:24.799] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.git","_lower":"vscode.git"},"activationEvent":"*"}
+[2020-06-10 10:48:24.799] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/vscode/resources/app/extensions/git/dist/main
+[2020-06-10 10:48:24.820] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication {"startup":true,"extensionId":{"value":"vscode.github-authentication","_lower":"vscode.github-authentication"},"activationEvent":"*"}
+[2020-06-10 10:48:24.820] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/vscode/resources/app/extensions/github-authentication/dist/extension.js
+[2020-06-10 10:48:24.829] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"*"}
+[2020-06-10 10:48:24.829] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/vscode/resources/app/extensions/merge-conflict/dist/extension
+[2020-06-10 10:48:24.833] [exthost] [info] ExtensionService#_doActivateExtension vscode.search-result {"startup":true,"extensionId":{"value":"vscode.search-result","_lower":"vscode.search-result"},"activationEvent":"*"}
+[2020-06-10 10:48:24.833] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/vscode/resources/app/extensions/search-result/dist/extension.js
+[2020-06-10 10:48:24.835] [exthost] [info] ExtensionService#_doActivateExtension vscode.vscode-account {"startup":true,"extensionId":{"value":"vscode.vscode-account","_lower":"vscode.vscode-account"},"activationEvent":"*"}
+[2020-06-10 10:48:24.835] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/vscode/resources/app/extensions/vscode-account/dist/extension.js
+[2020-06-10 10:48:24.843] [exthost] [info] ExtensionService#_doActivateExtension naumovs.color-highlight {"startup":true,"extensionId":{"value":"naumovs.color-highlight","_lower":"naumovs.color-highlight"},"activationEvent":"*"}
+[2020-06-10 10:48:24.843] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/stef/.vscode/extensions/naumovs.color-highlight-2.3.0/dist/extension
+[2020-06-10 10:48:24.864] [exthost] [info] eager extensions activated

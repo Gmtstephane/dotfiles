@@ -1,0 +1,29 @@
+Looking for git in: git
+Using git 2.27.0 from git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+Open repository: /home/stef/.local/share/nvim/plugged/vim-airline-themes
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/stef/.local/share/nvim/plugged/vim-airline-themes/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/stef/.local/share/nvim/plugged/vim-airline-themes/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/vscode/resources/app/extensions/git/dist/main.js:1:604919)
+	at T.updateTransientWatchers (/usr/share/vscode/resources/app/extensions/git/dist/main.js:1:83965)
+	at Emitter.fire (/usr/share/vscode/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:3457:45)
+	at e.updateModelState (/usr/share/vscode/resources/app/extensions/git/dist/main.js:1:103179)
+> git config --get commit.template
+> git show :autoload/airline/themes/custom_nord.vim
+> git ls-files --stage -- /home/stef/.local/share/nvim/plugged/vim-airline-themes/autoload/airline/themes/custom_nord.vim
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
